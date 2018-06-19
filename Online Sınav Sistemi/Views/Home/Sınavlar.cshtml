@@ -1,0 +1,275 @@
+﻿@model IEnumerable<Online_Sınav_Sistemi.Models.DersYetki>
+    @*</Online_Sınav_Sistemi.Models.DersYetki>*@
+@{
+    ViewBag.Title = "Sınavlar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <div class="col-sm-7 col-sm-offset-2">
+
+        @*<article class="article">
+                <div class="panel panel-default test-panel">
+                    @{
+
+
+                        DateTime bugun = Convert.ToDateTime(DateTime.Now);
+
+
+                        foreach (var item in Model)
+                        {
+
+                            DateTime basTarih = Convert.ToDateTime(item.BaslangicTarihi);
+                            DateTime bitTarih = Convert.ToDateTime(item.BitisTarihi);
+
+
+
+                            if (bugun >= basTarih && bugun <= bitTarih)
+                            {
+                                <div class="panel-heading">
+                                    <h2>
+                                        <a href="~/Home/Sınav/@item.SınavID">@item.SınavAdi</a> Sınav Süresi:  @Html.Raw(item.SınavSüresi)dk
+                                    </h2><h2> aktif</h2>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="panel-heading">
+                                    <h2>
+                                        <a>@item.SınavAdi</a> Sınav Süresi:  @Html.Raw(item.SınavSüresi)dk
+                                    </h2>
+                                </div>
+                            }
+
+                    }
+
+
+                    }
+                </div>
+            </article>*@
+    </div>
+
+
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Sınavlar</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <table class="table table-bordered table-striped">
+                            <tr style="height:40px">
+                                <th>Sınav Adı</th>
+                                <th>Ders Adı</th>
+                                <th>Başlangıç Tarihi</th>
+                                <th>Bitiş Tarihi</th>
+                                <th>Süre(dk)</th>
+                                <th>Durum</th>
+                                <th></th>
+                            </tr>
+                            @{
+
+
+                                DateTime bugun = Convert.ToDateTime(DateTime.Now);
+
+
+                                foreach (var item in Model)
+                                {
+
+                                    //DateTime basTarih = Convert.ToDateTime(item.BaslangicTarihi);
+                                    //DateTime bitTarih = Convert.ToDateTime(item.BitisTarihi);
+                                    DateTime basTarih = Convert.ToDateTime(item.Sınav.BaslangicTarihi);
+                                    DateTime bitTarih = Convert.ToDateTime(item.Sınav.BitisTarihi);
+                                    DateTime tiktarihi = Convert.ToDateTime(item.TikTarih);
+                                    DateTime Bitzamani = Convert.ToDateTime(tiktarihi.AddMinutes(Convert.ToInt32(item.Sınav.SınavSüresi)));
+
+
+                                    if (bugun >= basTarih && bugun <= bitTarih)
+                                    {
+                                        @*<div class="panel-heading">
+                                                <h2>
+                                                    <a href="~/Home/Sınav/@item.SınavID">@item.SınavAdi</a> Sınav Süresi:  @Html.Raw(item.SınavSüresi)dk
+                                                </h2><h2> aktif</h2>
+                                            </div>*@
+                                        <tr style="height:60px">
+                                            @*<td>@item.SınavAdi</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Ders.DersAdi)</td>
+                                                <td>@item.BaslangicTarihi</td>
+                                                <td>@item.BitisTarihi</td>
+                                                <td>@item.SınavSüresi</td>*@
+                                            <td>@item.Sınav.SınavAdi</td>
+                                            <td>@Html.DisplayFor(modelItem => item.Sınav.Ders.DersAdi)</td>
+                                            <td>@item.Sınav.BaslangicTarihi</td>
+                                            <td>@item.Sınav.BitisTarihi</td>
+                                            <td>@item.Sınav.SınavSüresi</td>
+
+
+
+                                            @{
+
+                                        if (item.Durum == "Tamamlandı")
+                                        {
+
+                                            <td><center>@item.Durum</center></td>
+                                                <td><center><span class="glyphicon fa fa-fw fa-check-circle" style="color:blue"></span></center></td>
+
+
+
+                                        }
+                                        else if (Convert.ToString(item.TikTarih) == "")
+                                        {
+                                            <td><center>Aktif</center></td>
+                                                <td>
+                                                    <center>
+                                                        <a href="~/Home/Sınav/@item.Sınav.SınavID" id="@item.DersYetkiID" class="giriszamani">Giriş Yap</a>
+                                                    </center>
+                                                </td>
+                                        }
+                                        else
+                                        {
+
+                                            <td><center>Tamamlandı</center></td>
+                                                <td><center><span class="glyphicon fa fa-fw fa-check-circle" style="color:blue"></span></center></td>
+
+
+                                        }
+
+                                            }
+
+
+
+                                        </tr>
+                                    }
+                                    else
+                                    {
+                                        if (bugun < basTarih)
+                                        {
+                                            <tr style="height:60px">
+                                                <td>@item.Sınav.SınavAdi</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Sınav.Ders.DersAdi)</td>
+                                                <td>@item.Sınav.BaslangicTarihi</td>
+                                                <td>@item.Sınav.BitisTarihi</td>
+                                                <td data-sınavsuresi="@item.Sınav.SınavSüresi">@item.Sınav.SınavSüresi</td>
+                                                <td><center>Aktif Değil</center></td>
+                                                <td><center><span class="glyphicon fa fa-fw fa-hourglass-2" style="color:red"></span></center></td>
+
+
+                                            </tr>
+                                        }
+                                        else
+                                        {
+                                            <tr style="height:60px">
+                                                <td>@item.Sınav.SınavAdi</td>
+                                                <td>@Html.DisplayFor(modelItem => item.Sınav.Ders.DersAdi)</td>
+                                                <td>@item.Sınav.BaslangicTarihi</td>
+                                                <td>@item.Sınav.BitisTarihi</td>
+                                                <td data-sınavsuresi="@item.Sınav.SınavSüresi">@item.Sınav.SınavSüresi</td>
+                                                <td><center>Süresi Geçti</center></td>
+                                                <td><center><span class="glyphicon fa fa-fw fa-frown-o" style="color:red"></span></center></td>
+
+
+                                            </tr>
+                                        }
+
+                                    }
+
+
+                                }
+
+                            }
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                    @*<div class="box-footer clearfix">
+                        <ul class="pagination pagination-sm no-margin pull-right">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </div>*@
+                </div>
+                <!-- /.box -->
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+
+        </div>
+        <!-- /.row -->
+
+    </section>
+    @*<button class="ddd">gfbg</button>
+        <div id="message">please wait...</div>*@
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.2.3.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    @*<script>
+            $(".sure").click(function () {
+                var ad = $(this).data("secim");
+                alert(ad);
+
+            });
+
+        </script>*@
+    <script>
+        $(".sure").click(function () {
+            var ad = $(this).data("secim");
+            alert(ad);
+
+        });
+        $(".giriszamani").click(function (e) {
+
+            //var questionId = e.target.name;
+            var butonId = e.target.id;
+            //alert("Soru Numarası:" + questionId);
+            $.ajax({
+                url: '/Home/TikTarihKaydet/',
+                data: { dersYetkiID: butonId },
+
+                type: 'POST',
+                dataType: 'json',
+                success: function (data) {
+                    //alert("Soru Eklendi Şıkkın:  " + checked_option_radio);
+
+                }
+
+            });
+        });
+
+
+        $(function () {
+
+
+            $('#message').append("hdjfdgfgf");
+
+
+
+
+        });
+
+        //$(function() {
+        //    var hub = $.connection.uptimeHub;
+
+
+        //    $.connection.hub.start();
+        //    hub.client.internetUpTime = function (time) {
+
+        //        $('#message').text('');
+
+        //        var arr = time.split(",");
+
+        //        for (var i = 0; i < arr.length; i++) {
+        //            $('#message').append(arr[i]);
+
+        //            if (i < arr.length -1) {
+        //                $('#message').append('<br/>');
+        //            }
+        //        }
+
+
+        //    };
+        //});
+    </script>
+

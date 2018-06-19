@@ -1,0 +1,107 @@
+﻿@model Online_Sınav_Sistemi.Models.Soru
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Soru</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.SoruID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.KonuID, "KonuID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("KonuID", String.Empty)
+                @Html.ValidationMessageFor(model => model.KonuID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SoruResmi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SoruResmi)
+                @Html.ValidationMessageFor(model => model.SoruResmi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Soru1, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Soru1)
+                @Html.ValidationMessageFor(model => model.Soru1)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cevap, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Cevap)
+                @Html.ValidationMessageFor(model => model.Cevap)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CevapA, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CevapA)
+                @Html.ValidationMessageFor(model => model.CevapA)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CevapB, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CevapB)
+                @Html.ValidationMessageFor(model => model.CevapB)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CevapC, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CevapC)
+                @Html.ValidationMessageFor(model => model.CevapC)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CevapD, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CevapD)
+                @Html.ValidationMessageFor(model => model.CevapD)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CevapE, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CevapE)
+                @Html.ValidationMessageFor(model => model.CevapE)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

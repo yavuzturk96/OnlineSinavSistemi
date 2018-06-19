@@ -1,0 +1,35 @@
+﻿@model Online_Sınav_Sistemi.Models.DersYetki
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DersYetki</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Uye.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uye.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sınav.SınavAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sınav.SınavAdi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DersYetkiID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

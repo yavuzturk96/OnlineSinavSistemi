@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86c24376680f4ca3a3cc1691c97af851" Name="Diagram1" ZoomLevel="73">
+        <EntityTypeShape EntityType="OnlineSınavModel.Bolum" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Ders" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Donem" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Konu" Width="1.5" PointX="7.375" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Secenek" Width="1.5" PointX="12" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Soru" Width="1.5" PointX="10.375" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Uye" Width="1.5" PointX="12" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Yetki" Width="1.5" PointX="9.75" PointY="12.375" IsExpanded="true" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Donem_Bolum" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Ders_Donem" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Konu_Ders" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Soru_Konu" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Secenek_Soru" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Uye_Yetki" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Cevap" Width="1.5" PointX="14.25" PointY="7.5" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Cevap_Secenek" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Cevap_Soru" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Cevap_Uye" />
+        <EntityTypeShape EntityType="OnlineSınavModel.DersYetki" Width="1.5" PointX="7.375" PointY="9.5" />
+        <AssociationConnector Association="OnlineSınavModel.FK_DersYetki_Uye" />
+        <EntityTypeShape EntityType="OnlineSınavModel.Sınav" Width="1.5" PointX="7.5" PointY="0.75" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Sınav_Ders" />
+        <AssociationConnector Association="OnlineSınavModel.FK_DersYetki_Sınav" />
+        <AssociationConnector Association="OnlineSınavModel.FK_Soru_Sınav" />
+        <EntityTypeShape EntityType="OnlineSınavModel.UyeDersYetki" Width="1.5" PointX="4.75" PointY="9.5" />
+        <AssociationConnector Association="OnlineSınavModel.FK_UyeDersYetki_Ders" />
+        <AssociationConnector Association="OnlineSınavModel.FK_UyeDersYetki_Uye" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

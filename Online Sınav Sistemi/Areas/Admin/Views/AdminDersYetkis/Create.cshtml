@@ -1,0 +1,62 @@
+﻿@model Online_Sınav_Sistemi.Models.DersYetki
+
+@*@{
+    ViewBag.Title = "Create";
+    Layout = null;
+    //Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+@{
+    Layout = null;
+}
+
+
+
+@using (Html.BeginForm("Create", "AdminDersYetkis", FormMethod.Post, new { @class = "form-horizontal" })) 
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-body">
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.UyeID, "UyeID", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("UyeID", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.UyeID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SınavID, "SınavID", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("SınavID", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.SınavID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Kaydet" class="btn btn-default" />
+                </div>
+            </div>*@
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-sm" data-dismiss="modal">
+            <i class="ace-icon fa fa-times"></i>
+            İptal
+        </button>
+
+        <button class="btn btn-sm btn-primary" type="submit">
+            <i class="ace-icon fa fa-check"></i>
+            Kaydet
+        </button>
+    </div>
+}
+
+        @*<div>
+            @Html.ActionLink("Back to List", "Index")
+        </div>*@
+
+
+

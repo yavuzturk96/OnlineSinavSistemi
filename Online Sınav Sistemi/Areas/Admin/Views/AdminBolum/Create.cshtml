@@ -1,0 +1,67 @@
+﻿@model Online_Sınav_Sistemi.Models.Bolum
+
+@*@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";}*@
+
+@{
+    Layout = null;
+}
+
+<link href="~/assets/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+
+@using (Html.BeginForm("Create","AdminBolum",FormMethod.Post,new {@class="form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="modal-body">
+        <div class="form-horizontal">
+
+
+            @Html.ValidationSummary(true)
+
+            @*<div class="form-group">
+                    @Html.LabelFor(model => model.BolumID, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.BolumID)
+                        @Html.ValidationMessageFor(model => model.BolumID)
+                    </div>
+                </div>*@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.BolumAdi, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.BolumAdi)
+                    @Html.ValidationMessageFor(model => model.BolumAdi)
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Ekle" class="btn btn-default" />
+                    </div>
+                </div>*@
+
+            
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-sm" data-dismiss="modal">
+            <i class="ace-icon fa fa-times"></i>
+            İptal
+        </button>
+
+        <button class="btn btn-sm btn-primary" type="submit">
+            <i class="ace-icon fa fa-check"></i>
+            Kaydet
+        </button>
+    </div>
+}
+
+        @*<div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>*@
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

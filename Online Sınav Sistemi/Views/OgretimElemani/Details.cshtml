@@ -1,0 +1,91 @@
+﻿@model Online_Sınav_Sistemi.Models.Soru
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Soru</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SoruResmi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoruResmi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soru1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soru1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cevap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cevap)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CevapA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CevapA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CevapB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CevapB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CevapC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CevapC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CevapD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CevapD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CevapE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CevapE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Konu.KonuAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Konu.KonuAdi)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SoruID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

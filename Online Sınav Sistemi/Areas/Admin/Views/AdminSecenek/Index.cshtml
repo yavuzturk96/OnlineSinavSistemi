@@ -1,0 +1,444 @@
+﻿@model IEnumerable<Online_Sınav_Sistemi.Models.Secenek>
+
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    }
+
+    @*<h2>Index</h2>
+
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.SecenekAdı)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SecenekResmi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Soru.SoruAdı)
+                </th>
+                <th></th>
+            </tr>
+
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SecenekAdı)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SecenekResmi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Soru.SoruAdı)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.SecenekID }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.SecenekID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.SecenekID })
+                </td>
+            </tr>
+        }
+
+        </table>*@
+
+    <div id="modal-form-Create" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="blue bigger">Lütfen aşağıdaki form alanlarını doldurun</h4>
+                </div>
+
+                
+                @{
+                    Html.RenderAction("Create", "AdminSecenek");
+                }
+                @*<div class="modal-footer">
+                        <button class="btn btn-sm" data-dismiss="modal">
+                            <i class="ace-icon fa fa-times"></i>
+                            İptal
+                        </button>
+
+                        <button class="btn btn-sm btn-primary" type="submit">
+                            <i class="ace-icon fa fa-check"></i>
+                            Kaydet
+                        </button>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+    <div id="modelView" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="blue bigger">Lütfen aşağıdaki form alanlarını doldurun</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+
+
+                        <div class="col-xs-12 col-sm-7">
+                            <div class="form-group">
+                                @*@{
+                                        Html.RenderAction("Edit", "Bolum", new { id = Session["id"] });
+                                    }*@
+                                <div class="modal-body">
+
+                                </div>
+
+                            </div>
+
+                            <div class="space-4"></div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                @*<div class="modal-footer">
+                        <button class="btn btn-sm" data-dismiss="modal">
+                            <i class="ace-icon fa fa-times"></i>
+                            İptal
+                        </button>
+
+                        <button class="btn btn-sm btn-primary" type="submit">
+                            <i class="ace-icon fa fa-check"></i>
+                            Kaydet
+                        </button>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+    <div id="modal-form-Details" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="blue bigger">Lütfen aşağıdaki form alanlarını doldurun</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+
+
+                        <div class="col-xs-12 col-sm-7">
+                            <div class="form-group">
+                                @{
+                                    Html.RenderAction("Details", "AdminBolum");
+                                }
+
+                            </div>
+
+                            <div class="space-4"></div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                @*<div class="modal-footer">
+                        <button class="btn btn-sm" data-dismiss="modal">
+                            <i class="ace-icon fa fa-times"></i>
+                            İptal
+                        </button>
+
+                        <button class="btn btn-sm btn-primary" type="submit">
+                            <i class="ace-icon fa fa-check"></i>
+                            Kaydet
+                        </button>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+    <div id="modal-form-Delete" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="blue bigger">Seçenek Silme İşlemi</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="form-group">
+                            <div class="modal-body">
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-sm" data-dismiss="modal">
+                    <i class="ace-icon fa fa-times"></i>
+                    İptal
+                </button>
+
+                <button class="btn btn-sm btn-primary secenekSil" type="submit">
+                    <i class="ace-icon fa fa-check"></i>
+                    Evet
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal-form-Edit" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content" id="myModalBodyDiv">
+
+
+        </div>
+    </div>
+</div>
+    <div class="page-header">
+        <h1>
+            Secenekler
+        </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-lg-12">
+                    <table id="simple-table" class="table  table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th class="left">
+                                    Seçenek Adı
+                                    @*@Html.DisplayNameFor(model => model.SecenekAdı)*@
+                                </th>
+                                <th class="left">
+                                    Seçenek Resmi
+                                </th>
+                                <th class="left">
+                                    Soru Adı
+                                </th>
+                                <th>Doğru Şık</th>
+                                <th class="center">
+                                    <button class="btn btn-xs btn-warning" data-toggle="modal" title="Secenek Ekle" href="#modal-form-Create" data-source="/AdminSecenek/Create">
+                                        <i class="ace-icon glyphicon glyphicon-plus bigger-120"></i>
+                                    </button>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="left">
+                                        @Html.DisplayFor(modelItem => item.SecenekAdı)
+                                    </td>
+                                    <td class="left">
+                                        @{
+                                if (item.SecenekResmi != null)
+                                {
+                                    var base64 = Convert.ToBase64String(item.SecenekResmi);
+                                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                                    <img src='@imgSrc' style="max-width:100px; max-height:100px;" />
+                                }
+                                        }
+                                        @*@Html.DisplayFor(modelItem => item.SecenekResmi)*@
+                                    </td>
+                                    <td class="left">
+                                        @Html.DisplayFor(modelItem => item.Soru.SoruAdı)
+                                    </td>
+                                    <td>
+                                        <div id="radio" class="col-xs-6">
+                                            <br>
+                                            <div class="input-group ">
+                                                <span class="input-group-addon">
+                                                    <input type="radio" id="@item.SecenekID" value="@item.SecenekID" name="@item.SoruID">    @*onclick="choiceSwitch()"*@
+                                                </span>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </td>
+                                    <td class="center">
+                                        <div class="hidden-sm hidden-xs btn-group">
+                                            @*<button class="btn btn-xs btn-success view" title="Detay" data-toggle="modal" href="#modelView" data-target="/AdminSecenek/Details/@item.SecenekID">
+                                                <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                            </button>*@
+
+                                            <button class="btn btn-xs btn-info modalAcEdit" title="Güncelle" data-toggle="modal" data-target="#modal-form-Edit" data-id="@item.SecenekID" >
+
+                                                @* @Html.ActionLink("düzenle", "Edit", new { id = item.BolumID })*@
+                                                <i class="ace-icon fa fa-pencil bigger-120"></i>
+                                            </button>
+
+                                            <button class="btn btn-xs btn-danger modalAc" title="Sil" data-toggle="modal" data-target="#modal-form-Delete" data-soruadi="@item.SecenekAdı" data-id="@item.SecenekID" data-soruid="@item.SoruID">
+                                                <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                            </button>
+
+
+                                        </div>
+                                        <div class="hidden-md hidden-lg">
+                                            <div class="inline pos-rel">
+                                                <button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+                                                    <i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+                                                </button>
+
+                                                <ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+                                                    <li>
+                                                        <a href="#" class="tooltip-info" data-rel="tooltip" title="Detay">
+                                                            <span class="blue">
+                                                                <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="tooltip-success" data-rel="tooltip" title="Düzenle">
+                                                            <span class="green">
+                                                                <i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#" class="tooltip-error" data-rel="tooltip" title="Sil">
+                                                            <span class="red">
+                                                                <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </td>
+                                </tr>
+
+                            }
+
+                        </tbody>
+                    </table>
+                    <div>
+
+                        <a href="/Admin/AdminSoru/Index/@Session["IndexID"]" class="btn btn-xs btn-success Center btn-danger" title="Geri">
+
+                            <i class="ace-icon fa fa-backward bigger-120 "> Geri</i>
+
+                        </a>
+                    </div>
+                </div><!-- /.span -->
+            </div>
+        </div>
+    </div>
+
+    @*<li class="previous">
+        <a href="~/Admin/AdminSoru/Index">
+            <i class="ace-icon fa fa-arrow-left"></i>
+            Geri
+        </a>
+    </li>*@
+
+
+
+    <script src="~/assets/js/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            // a tagimizde bulunan .view classımıza click olduğunda
+            $("body").on("click", ".view", function () {
+                //data-target dan url mizi al
+                var url = $(this).data("target");
+                //bu urlimizi post et
+                $.post(url, function (data) { })
+                    //eğer işlemimiz başarılı bir şekilde gerçekleşirse
+                .done(function (data) {
+                    //gelen datayı .modal-body mizin içerise html olarak ekle
+                    $("#modelView .modal-body").html(data);
+                    //sonra da modalimizi göster
+                    $("#modelView").modal("show");
+                })
+                    //eğer işlem başarısız olursa
+                .fail(function () {
+                    //modalımızın bodysine Error! yaz
+                    $("#modelView .modal-body").text("Error!!");
+                    //sonra da modalimizi göster
+                    $("#modelView").modal("show");
+                })
+
+            });
+        })
+
+        $(".modalAc").click(function () {
+            var soruAdi = $(this).data("soruadi");
+            $(".modal-body>p").html(soruAdi + " adlı secenek silinsin mi?");
+            var id = $(this).data("id");
+            $(".secenekSil").data("id", id);
+            var soruid = $(this).data("soruid");
+            $(".secenekSil").data("soruid", soruid);
+        });
+
+        $(".secenekSil").click(function () {
+            var id = $(this).data("id");
+            var soruid = $(this).data("soruid");
+
+            $.ajax({
+                type: "POST",
+                url: "/Admin/AdminSecenek/Sil/" + id,
+                success: function () {
+                    window.location.replace("/Admin/AdminSecenek/Index/" + soruid);
+                },
+                error: function () {
+
+                }
+
+            });
+        });
+    </script>
+
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('input[type="radio"]').click(function (e) {
+                //var checked_option_radio = $('input:radio[type=radio]:checked').val();
+                //alert(e.target.name);
+                //alert(e.target.id);
+                var questionId = e.target.name;
+                var checked_option_radio = e.target.id;
+                //alert("Soru Numarası:" + questionId);
+                $.ajax({
+                    url: '/AdminSecenek/secenekDegistir/',
+                    data: { checked_option_radio: checked_option_radio, SoruID: questionId },
+
+                    type: 'POST',
+                    dataType: 'json',
+                    success: function (data) {
+                        //alert("Soru Eklendi Şıkkın:  " + checked_option_radio);
+                    }
+
+                });
+
+            });
+        })
+
+        $(".modalAcEdit").click(function () {
+            var soruID = $(this).data("id");
+            var url = "/Admin/AdminSecenek/Edit/" + soruID;
+
+            $("#myModalBodyDiv").load(url, function () {
+
+                ("#modal-form-Edit").modal("show");
+            });
+        });
+    </script>

@@ -1,0 +1,1056 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="OnlineSınavModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Bolum">
+          <Key>
+            <PropertyRef Name="BolumID" />
+          </Key>
+          <Property Name="BolumID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BolumAdi" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Cevap">
+          <Key>
+            <PropertyRef Name="CevapID" />
+          </Key>
+          <Property Name="CevapID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UyeID" Type="int" />
+          <Property Name="SoruID" Type="int" />
+          <Property Name="SecilenCevapID" Type="int" />
+          <Property Name="Puan" Type="int" />
+          <Property Name="DogruCevapMı" Type="int" />
+        </EntityType>
+        <EntityType Name="Ders">
+          <Key>
+            <PropertyRef Name="DersID" />
+          </Key>
+          <Property Name="DersID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DersAdi" Type="nvarchar(max)" />
+          <Property Name="DonemID" Type="int" />
+        </EntityType>
+        <EntityType Name="DersYetki">
+          <Key>
+            <PropertyRef Name="DersYetkiID" />
+          </Key>
+          <Property Name="DersYetkiID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UyeID" Type="int" />
+          <Property Name="SınavID" Type="int" />
+          <Property Name="TikTarih" Type="datetime" />
+          <Property Name="Durum" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Donem">
+          <Key>
+            <PropertyRef Name="DonemID" />
+          </Key>
+          <Property Name="DonemID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DonemAdi" Type="nvarchar(max)" />
+          <Property Name="BolumID" Type="int" />
+        </EntityType>
+        <EntityType Name="Konu">
+          <Key>
+            <PropertyRef Name="KonuID" />
+          </Key>
+          <Property Name="KonuID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KonuAdi" Type="nvarchar(max)" />
+          <Property Name="DersID" Type="int" />
+        </EntityType>
+        <EntityType Name="Secenek">
+          <Key>
+            <PropertyRef Name="SecenekID" />
+          </Key>
+          <Property Name="SecenekID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SoruID" Type="int" />
+          <Property Name="SecenekAdı" Type="nvarchar(max)" />
+          <Property Name="SecenekResmi" Type="image" />
+        </EntityType>
+        <EntityType Name="Sınav">
+          <Key>
+            <PropertyRef Name="SınavID" />
+          </Key>
+          <Property Name="SınavID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SınavAdi" Type="nvarchar(max)" />
+          <Property Name="SınavSüresi" Type="int" />
+          <Property Name="BaslangicTarihi" Type="datetime" />
+          <Property Name="BitisTarihi" Type="datetime" />
+          <Property Name="DersID" Type="int" />
+        </EntityType>
+        <EntityType Name="Soru">
+          <Key>
+            <PropertyRef Name="SoruID" />
+          </Key>
+          <Property Name="SoruID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SınavID" Type="int" />
+          <Property Name="KonuID" Type="int" />
+          <Property Name="Puan" Type="int" />
+          <Property Name="SoruResmi" Type="image" />
+          <Property Name="SoruAdı" Type="nvarchar(max)" />
+          <Property Name="DogruCevapID" Type="int" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Uye">
+          <Key>
+            <PropertyRef Name="UyeID" />
+          </Key>
+          <Property Name="UyeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Email" Type="nvarchar(max)" />
+          <Property Name="Sifre" Type="nvarchar(max)" />
+          <Property Name="Ad" Type="nvarchar(max)" />
+          <Property Name="Soyad" Type="nvarchar(max)" />
+          <Property Name="Fotograf" Type="image" />
+          <Property Name="YetkiID" Type="int" />
+          <Property Name="Numara" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="UyeDersYetki">
+          <Key>
+            <PropertyRef Name="UyeDersYetkiID" />
+          </Key>
+          <Property Name="UyeDersYetkiID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UyeID" Type="int" />
+          <Property Name="DersID" Type="int" />
+        </EntityType>
+        <EntityType Name="Yetki">
+          <Key>
+            <PropertyRef Name="YetkiID" />
+          </Key>
+          <Property Name="YetkiID" Type="int" Nullable="false" />
+          <Property Name="Yetki" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK_Cevap_Secenek">
+          <End Role="Secenek" Type="Self.Secenek" Multiplicity="0..1" />
+          <End Role="Cevap" Type="Self.Cevap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Secenek">
+              <PropertyRef Name="SecenekID" />
+            </Principal>
+            <Dependent Role="Cevap">
+              <PropertyRef Name="SecilenCevapID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cevap_Soru">
+          <End Role="Soru" Type="Self.Soru" Multiplicity="0..1" />
+          <End Role="Cevap" Type="Self.Cevap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soru">
+              <PropertyRef Name="SoruID" />
+            </Principal>
+            <Dependent Role="Cevap">
+              <PropertyRef Name="SoruID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cevap_Uye">
+          <End Role="Uye" Type="Self.Uye" Multiplicity="0..1" />
+          <End Role="Cevap" Type="Self.Cevap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Uye">
+              <PropertyRef Name="UyeID" />
+            </Principal>
+            <Dependent Role="Cevap">
+              <PropertyRef Name="UyeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ders_Donem">
+          <End Role="Donem" Type="Self.Donem" Multiplicity="0..1" />
+          <End Role="Ders" Type="Self.Ders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Donem">
+              <PropertyRef Name="DonemID" />
+            </Principal>
+            <Dependent Role="Ders">
+              <PropertyRef Name="DonemID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DersYetki_Sınav">
+          <End Role="Sınav" Type="Self.Sınav" Multiplicity="0..1" />
+          <End Role="DersYetki" Type="Self.DersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sınav">
+              <PropertyRef Name="SınavID" />
+            </Principal>
+            <Dependent Role="DersYetki">
+              <PropertyRef Name="SınavID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DersYetki_Uye">
+          <End Role="Uye" Type="Self.Uye" Multiplicity="0..1" />
+          <End Role="DersYetki" Type="Self.DersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Uye">
+              <PropertyRef Name="UyeID" />
+            </Principal>
+            <Dependent Role="DersYetki">
+              <PropertyRef Name="UyeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Donem_Bolum">
+          <End Role="Bolum" Type="Self.Bolum" Multiplicity="0..1" />
+          <End Role="Donem" Type="Self.Donem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolum">
+              <PropertyRef Name="BolumID" />
+            </Principal>
+            <Dependent Role="Donem">
+              <PropertyRef Name="BolumID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Konu_Ders">
+          <End Role="Ders" Type="Self.Ders" Multiplicity="0..1" />
+          <End Role="Konu" Type="Self.Konu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ders">
+              <PropertyRef Name="DersID" />
+            </Principal>
+            <Dependent Role="Konu">
+              <PropertyRef Name="DersID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Secenek_Soru">
+          <End Role="Soru" Type="Self.Soru" Multiplicity="0..1" />
+          <End Role="Secenek" Type="Self.Secenek" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soru">
+              <PropertyRef Name="SoruID" />
+            </Principal>
+            <Dependent Role="Secenek">
+              <PropertyRef Name="SoruID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Sınav_Ders">
+          <End Role="Ders" Type="Self.Ders" Multiplicity="0..1" />
+          <End Role="Sınav" Type="Self.Sınav" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ders">
+              <PropertyRef Name="DersID" />
+            </Principal>
+            <Dependent Role="Sınav">
+              <PropertyRef Name="DersID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Soru_Konu">
+          <End Role="Konu" Type="Self.Konu" Multiplicity="0..1" />
+          <End Role="Soru" Type="Self.Soru" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Konu">
+              <PropertyRef Name="KonuID" />
+            </Principal>
+            <Dependent Role="Soru">
+              <PropertyRef Name="KonuID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Soru_Sınav">
+          <End Role="Sınav" Type="Self.Sınav" Multiplicity="0..1" />
+          <End Role="Soru" Type="Self.Soru" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sınav">
+              <PropertyRef Name="SınavID" />
+            </Principal>
+            <Dependent Role="Soru">
+              <PropertyRef Name="SınavID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Uye_Yetki">
+          <End Role="Yetki" Type="Self.Yetki" Multiplicity="0..1" />
+          <End Role="Uye" Type="Self.Uye" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Yetki">
+              <PropertyRef Name="YetkiID" />
+            </Principal>
+            <Dependent Role="Uye">
+              <PropertyRef Name="YetkiID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UyeDersYetki_Ders">
+          <End Role="Ders" Type="Self.Ders" Multiplicity="0..1" />
+          <End Role="UyeDersYetki" Type="Self.UyeDersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ders">
+              <PropertyRef Name="DersID" />
+            </Principal>
+            <Dependent Role="UyeDersYetki">
+              <PropertyRef Name="DersID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UyeDersYetki_Uye">
+          <End Role="Uye" Type="Self.Uye" Multiplicity="0..1" />
+          <End Role="UyeDersYetki" Type="Self.UyeDersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Uye">
+              <PropertyRef Name="UyeID" />
+            </Principal>
+            <Dependent Role="UyeDersYetki">
+              <PropertyRef Name="UyeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="OnlineSınavModelStoreContainer">
+          <EntitySet Name="Bolum" EntityType="Self.Bolum" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cevap" EntityType="Self.Cevap" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Ders" EntityType="Self.Ders" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DersYetki" EntityType="Self.DersYetki" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Donem" EntityType="Self.Donem" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Konu" EntityType="Self.Konu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Secenek" EntityType="Self.Secenek" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sınav" EntityType="Self.Sınav" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Soru" EntityType="Self.Soru" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Uye" EntityType="Self.Uye" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UyeDersYetki" EntityType="Self.UyeDersYetki" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Yetki" EntityType="Self.Yetki" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Cevap_Secenek" Association="Self.FK_Cevap_Secenek">
+            <End Role="Secenek" EntitySet="Secenek" />
+            <End Role="Cevap" EntitySet="Cevap" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cevap_Soru" Association="Self.FK_Cevap_Soru">
+            <End Role="Soru" EntitySet="Soru" />
+            <End Role="Cevap" EntitySet="Cevap" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cevap_Uye" Association="Self.FK_Cevap_Uye">
+            <End Role="Uye" EntitySet="Uye" />
+            <End Role="Cevap" EntitySet="Cevap" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ders_Donem" Association="Self.FK_Ders_Donem">
+            <End Role="Donem" EntitySet="Donem" />
+            <End Role="Ders" EntitySet="Ders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DersYetki_Sınav" Association="Self.FK_DersYetki_Sınav">
+            <End Role="Sınav" EntitySet="Sınav" />
+            <End Role="DersYetki" EntitySet="DersYetki" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DersYetki_Uye" Association="Self.FK_DersYetki_Uye">
+            <End Role="Uye" EntitySet="Uye" />
+            <End Role="DersYetki" EntitySet="DersYetki" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Donem_Bolum" Association="Self.FK_Donem_Bolum">
+            <End Role="Bolum" EntitySet="Bolum" />
+            <End Role="Donem" EntitySet="Donem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Konu_Ders" Association="Self.FK_Konu_Ders">
+            <End Role="Ders" EntitySet="Ders" />
+            <End Role="Konu" EntitySet="Konu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Secenek_Soru" Association="Self.FK_Secenek_Soru">
+            <End Role="Soru" EntitySet="Soru" />
+            <End Role="Secenek" EntitySet="Secenek" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Sınav_Ders" Association="Self.FK_Sınav_Ders">
+            <End Role="Ders" EntitySet="Ders" />
+            <End Role="Sınav" EntitySet="Sınav" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Soru_Konu" Association="Self.FK_Soru_Konu">
+            <End Role="Konu" EntitySet="Konu" />
+            <End Role="Soru" EntitySet="Soru" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Soru_Sınav" Association="Self.FK_Soru_Sınav">
+            <End Role="Sınav" EntitySet="Sınav" />
+            <End Role="Soru" EntitySet="Soru" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Uye_Yetki" Association="Self.FK_Uye_Yetki">
+            <End Role="Yetki" EntitySet="Yetki" />
+            <End Role="Uye" EntitySet="Uye" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UyeDersYetki_Ders" Association="Self.FK_UyeDersYetki_Ders">
+            <End Role="Ders" EntitySet="Ders" />
+            <End Role="UyeDersYetki" EntitySet="UyeDersYetki" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UyeDersYetki_Uye" Association="Self.FK_UyeDersYetki_Uye">
+            <End Role="Uye" EntitySet="Uye" />
+            <End Role="UyeDersYetki" EntitySet="UyeDersYetki" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="OnlineSınavModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Bolum">
+          <Key>
+            <PropertyRef Name="BolumID" />
+          </Key>
+          <Property Name="BolumID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BolumAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Donem" Relationship="Self.FK_Donem_Bolum" FromRole="Bolum" ToRole="Donem" />
+        </EntityType>
+        <EntityType Name="Ders">
+          <Key>
+            <PropertyRef Name="DersID" />
+          </Key>
+          <Property Name="DersID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DersAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DonemID" Type="Int32" />
+          <NavigationProperty Name="Donem" Relationship="Self.FK_Ders_Donem" FromRole="Ders" ToRole="Donem" />
+          <NavigationProperty Name="Konu" Relationship="Self.FK_Konu_Ders" FromRole="Ders" ToRole="Konu" />
+          <NavigationProperty Name="Sınav" Relationship="OnlineSınavModel.FK_Sınav_Ders" FromRole="Ders" ToRole="Sınav" />
+          <NavigationProperty Name="UyeDersYetki" Relationship="OnlineSınavModel.FK_UyeDersYetki_Ders" FromRole="Ders" ToRole="UyeDersYetki" />
+        </EntityType>
+        <EntityType Name="Donem">
+          <Key>
+            <PropertyRef Name="DonemID" />
+          </Key>
+          <Property Name="DonemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DonemAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="BolumID" Type="Int32" />
+          <NavigationProperty Name="Bolum" Relationship="Self.FK_Donem_Bolum" FromRole="Donem" ToRole="Bolum" />
+          <NavigationProperty Name="Ders" Relationship="Self.FK_Ders_Donem" FromRole="Donem" ToRole="Ders" />
+        </EntityType>
+        <EntityType Name="Konu">
+          <Key>
+            <PropertyRef Name="KonuID" />
+          </Key>
+          <Property Name="KonuID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KonuAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DersID" Type="Int32" />
+          <NavigationProperty Name="Ders" Relationship="Self.FK_Konu_Ders" FromRole="Konu" ToRole="Ders" />
+          <NavigationProperty Name="Soru" Relationship="Self.FK_Soru_Konu" FromRole="Konu" ToRole="Soru" />
+        </EntityType>
+        <EntityType Name="Secenek">
+          <Key>
+            <PropertyRef Name="SecenekID" />
+          </Key>
+          <Property Name="SecenekID" Type="Int32" Nullable="false" />
+          <Property Name="SoruID" Type="Int32" />
+          <Property Name="SecenekAdı" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SecenekResmi" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="Soru" Relationship="Self.FK_Secenek_Soru" FromRole="Secenek" ToRole="Soru" />
+          <NavigationProperty Name="Cevap" Relationship="OnlineSınavModel.FK_Cevap_Secenek" FromRole="Secenek" ToRole="Cevap" />
+        </EntityType>
+        <EntityType Name="Soru">
+          <Key>
+            <PropertyRef Name="SoruID" />
+          </Key>
+          <Property Name="SoruID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SınavID" Type="Int32" />
+          <Property Name="KonuID" Type="Int32" />
+          <Property Name="Puan" Type="Int32" />
+          <Property Name="SoruResmi" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="SoruAdı" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DogruCevapID" Type="Int32" />
+          <NavigationProperty Name="Konu" Relationship="Self.FK_Soru_Konu" FromRole="Soru" ToRole="Konu" />
+          <NavigationProperty Name="Secenek" Relationship="Self.FK_Secenek_Soru" FromRole="Soru" ToRole="Secenek" />
+          <NavigationProperty Name="Cevap" Relationship="OnlineSınavModel.FK_Cevap_Soru" FromRole="Soru" ToRole="Cevap" />
+          <NavigationProperty Name="Sınav" Relationship="OnlineSınavModel.FK_Soru_Sınav" FromRole="Soru" ToRole="Sınav" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Uye">
+          <Key>
+            <PropertyRef Name="UyeID" />
+          </Key>
+          <Property Name="UyeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Sifre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Ad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Soyad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Fotograf" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="YetkiID" Type="Int32" />
+          <Property Name="Numara" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Yetki" Relationship="Self.FK_Uye_Yetki" FromRole="Uye" ToRole="Yetki" />
+          <NavigationProperty Name="Cevap" Relationship="OnlineSınavModel.FK_Cevap_Uye" FromRole="Uye" ToRole="Cevap" />
+          <NavigationProperty Name="DersYetki" Relationship="OnlineSınavModel.FK_DersYetki_Uye" FromRole="Uye" ToRole="DersYetki" />
+          <NavigationProperty Name="UyeDersYetki" Relationship="OnlineSınavModel.FK_UyeDersYetki_Uye" FromRole="Uye" ToRole="UyeDersYetki" />
+        </EntityType>
+        <EntityType Name="Yetki">
+          <Key>
+            <PropertyRef Name="YetkiID" />
+          </Key>
+          <Property Name="YetkiID" Type="Int32" Nullable="false" />
+          <Property Name="Yetki1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Uye" Relationship="Self.FK_Uye_Yetki" FromRole="Yetki" ToRole="Uye" />
+        </EntityType>
+        <Association Name="FK_Donem_Bolum">
+          <End Role="Bolum" Type="Self.Bolum" Multiplicity="0..1" />
+          <End Role="Donem" Type="Self.Donem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bolum">
+              <PropertyRef Name="BolumID" />
+            </Principal>
+            <Dependent Role="Donem">
+              <PropertyRef Name="BolumID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Ders_Donem">
+          <End Role="Donem" Type="Self.Donem" Multiplicity="0..1" />
+          <End Role="Ders" Type="Self.Ders" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Donem">
+              <PropertyRef Name="DonemID" />
+            </Principal>
+            <Dependent Role="Ders">
+              <PropertyRef Name="DonemID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Konu_Ders">
+          <End Role="Ders" Type="Self.Ders" Multiplicity="0..1" />
+          <End Role="Konu" Type="Self.Konu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ders">
+              <PropertyRef Name="DersID" />
+            </Principal>
+            <Dependent Role="Konu">
+              <PropertyRef Name="DersID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Soru_Konu">
+          <End Role="Konu" Type="Self.Konu" Multiplicity="0..1" />
+          <End Role="Soru" Type="Self.Soru" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Konu">
+              <PropertyRef Name="KonuID" />
+            </Principal>
+            <Dependent Role="Soru">
+              <PropertyRef Name="KonuID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Secenek_Soru">
+          <End Role="Soru" Type="Self.Soru" Multiplicity="0..1" />
+          <End Role="Secenek" Type="Self.Secenek" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soru">
+              <PropertyRef Name="SoruID" />
+            </Principal>
+            <Dependent Role="Secenek">
+              <PropertyRef Name="SoruID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Uye_Yetki">
+          <End Role="Yetki" Type="Self.Yetki" Multiplicity="0..1" />
+          <End Role="Uye" Type="Self.Uye" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Yetki">
+              <PropertyRef Name="YetkiID" />
+            </Principal>
+            <Dependent Role="Uye">
+              <PropertyRef Name="YetkiID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="OnlineSınavEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Bolum" EntityType="Self.Bolum" />
+          <EntitySet Name="Ders" EntityType="Self.Ders" />
+          <EntitySet Name="Donem" EntityType="Self.Donem" />
+          <EntitySet Name="Konu" EntityType="Self.Konu" />
+          <EntitySet Name="Secenek" EntityType="Self.Secenek" />
+          <EntitySet Name="Soru" EntityType="Self.Soru" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="Uye" EntityType="Self.Uye" />
+          <EntitySet Name="Yetki" EntityType="Self.Yetki" />
+          <AssociationSet Name="FK_Donem_Bolum" Association="Self.FK_Donem_Bolum">
+            <End Role="Bolum" EntitySet="Bolum" />
+            <End Role="Donem" EntitySet="Donem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Ders_Donem" Association="Self.FK_Ders_Donem">
+            <End Role="Donem" EntitySet="Donem" />
+            <End Role="Ders" EntitySet="Ders" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Konu_Ders" Association="Self.FK_Konu_Ders">
+            <End Role="Ders" EntitySet="Ders" />
+            <End Role="Konu" EntitySet="Konu" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Soru_Konu" Association="Self.FK_Soru_Konu">
+            <End Role="Konu" EntitySet="Konu" />
+            <End Role="Soru" EntitySet="Soru" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Secenek_Soru" Association="Self.FK_Secenek_Soru">
+            <End Role="Soru" EntitySet="Soru" />
+            <End Role="Secenek" EntitySet="Secenek" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Uye_Yetki" Association="Self.FK_Uye_Yetki">
+            <End Role="Yetki" EntitySet="Yetki" />
+            <End Role="Uye" EntitySet="Uye" />
+          </AssociationSet>
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(OnlineSınavModel.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(OnlineSınavModel.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+          <EntitySet Name="Cevap" EntityType="OnlineSınavModel.Cevap" />
+          <AssociationSet Name="FK_Cevap_Secenek" Association="OnlineSınavModel.FK_Cevap_Secenek">
+            <End Role="Secenek" EntitySet="Secenek" />
+            <End Role="Cevap" EntitySet="Cevap" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cevap_Soru" Association="OnlineSınavModel.FK_Cevap_Soru">
+            <End Role="Soru" EntitySet="Soru" />
+            <End Role="Cevap" EntitySet="Cevap" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Cevap_Uye" Association="OnlineSınavModel.FK_Cevap_Uye">
+            <End Role="Uye" EntitySet="Uye" />
+            <End Role="Cevap" EntitySet="Cevap" />
+          </AssociationSet>
+          <EntitySet Name="DersYetki" EntityType="OnlineSınavModel.DersYetki" />
+          <AssociationSet Name="FK_DersYetki_Uye" Association="OnlineSınavModel.FK_DersYetki_Uye">
+            <End Role="Uye" EntitySet="Uye" />
+            <End Role="DersYetki" EntitySet="DersYetki" />
+          </AssociationSet>
+          <EntitySet Name="Sınav" EntityType="OnlineSınavModel.Sınav" />
+          <AssociationSet Name="FK_Sınav_Ders" Association="OnlineSınavModel.FK_Sınav_Ders">
+            <End Role="Ders" EntitySet="Ders" />
+            <End Role="Sınav" EntitySet="Sınav" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DersYetki_Sınav" Association="OnlineSınavModel.FK_DersYetki_Sınav">
+            <End Role="Sınav" EntitySet="Sınav" />
+            <End Role="DersYetki" EntitySet="DersYetki" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Soru_Sınav" Association="OnlineSınavModel.FK_Soru_Sınav">
+            <End Role="Sınav" EntitySet="Sınav" />
+            <End Role="Soru" EntitySet="Soru" />
+          </AssociationSet>
+          <EntitySet Name="UyeDersYetki" EntityType="OnlineSınavModel.UyeDersYetki" />
+          <AssociationSet Name="FK_UyeDersYetki_Ders" Association="OnlineSınavModel.FK_UyeDersYetki_Ders">
+            <End Role="Ders" EntitySet="Ders" />
+            <End Role="UyeDersYetki" EntitySet="UyeDersYetki" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UyeDersYetki_Uye" Association="OnlineSınavModel.FK_UyeDersYetki_Uye">
+            <End Role="Uye" EntitySet="Uye" />
+            <End Role="UyeDersYetki" EntitySet="UyeDersYetki" />
+          </AssociationSet>
+        </EntityContainer>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="Cevap">
+          <Key>
+            <PropertyRef Name="CevapID" />
+          </Key>
+          <Property Name="CevapID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UyeID" Type="Int32" />
+          <Property Name="SoruID" Type="Int32" />
+          <Property Name="SecilenCevapID" Type="Int32" />
+          <Property Name="Puan" Type="Int32" />
+          <Property Name="DogruCevapMı" Type="Int32" />
+          <NavigationProperty Name="Secenek" Relationship="OnlineSınavModel.FK_Cevap_Secenek" FromRole="Cevap" ToRole="Secenek" />
+          <NavigationProperty Name="Soru" Relationship="OnlineSınavModel.FK_Cevap_Soru" FromRole="Cevap" ToRole="Soru" />
+          <NavigationProperty Name="Uye" Relationship="OnlineSınavModel.FK_Cevap_Uye" FromRole="Cevap" ToRole="Uye" />
+        </EntityType>
+        <Association Name="FK_Cevap_Secenek">
+          <End Type="OnlineSınavModel.Secenek" Role="Secenek" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.Cevap" Role="Cevap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Secenek">
+              <PropertyRef Name="SecenekID" />
+            </Principal>
+            <Dependent Role="Cevap">
+              <PropertyRef Name="SecilenCevapID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cevap_Soru">
+          <End Type="OnlineSınavModel.Soru" Role="Soru" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.Cevap" Role="Cevap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Soru">
+              <PropertyRef Name="SoruID" />
+            </Principal>
+            <Dependent Role="Cevap">
+              <PropertyRef Name="SoruID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Cevap_Uye">
+          <End Type="OnlineSınavModel.Uye" Role="Uye" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.Cevap" Role="Cevap" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Uye">
+              <PropertyRef Name="UyeID" />
+            </Principal>
+            <Dependent Role="Cevap">
+              <PropertyRef Name="UyeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="DersYetki">
+          <Key>
+            <PropertyRef Name="DersYetkiID" />
+          </Key>
+          <Property Name="DersYetkiID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UyeID" Type="Int32" />
+          <NavigationProperty Name="Uye" Relationship="OnlineSınavModel.FK_DersYetki_Uye" FromRole="DersYetki" ToRole="Uye" />
+          <Property Name="SınavID" Type="Int32" />
+          <Property Name="TikTarih" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Sınav" Relationship="OnlineSınavModel.FK_DersYetki_Sınav" FromRole="DersYetki" ToRole="Sınav" />
+          <Property Name="Durum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_DersYetki_Uye">
+          <End Type="OnlineSınavModel.Uye" Role="Uye" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.DersYetki" Role="DersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Uye">
+              <PropertyRef Name="UyeID" />
+            </Principal>
+            <Dependent Role="DersYetki">
+              <PropertyRef Name="UyeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Sınav">
+          <Key>
+            <PropertyRef Name="SınavID" />
+          </Key>
+          <Property Name="SınavID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SınavAdi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SınavSüresi" Type="Int32" />
+          <Property Name="BaslangicTarihi" Type="DateTime" Precision="3" />
+          <Property Name="BitisTarihi" Type="DateTime" Precision="3" />
+          <Property Name="DersID" Type="Int32" />
+          <NavigationProperty Name="Ders" Relationship="OnlineSınavModel.FK_Sınav_Ders" FromRole="Sınav" ToRole="Ders" />
+          <NavigationProperty Name="DersYetki" Relationship="OnlineSınavModel.FK_DersYetki_Sınav" FromRole="Sınav" ToRole="DersYetki" />
+          <NavigationProperty Name="Soru" Relationship="OnlineSınavModel.FK_Soru_Sınav" FromRole="Sınav" ToRole="Soru" />
+        </EntityType>
+        <Association Name="FK_Sınav_Ders">
+          <End Type="OnlineSınavModel.Ders" Role="Ders" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.Sınav" Role="Sınav" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ders">
+              <PropertyRef Name="DersID" />
+            </Principal>
+            <Dependent Role="Sınav">
+              <PropertyRef Name="DersID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DersYetki_Sınav">
+          <End Type="OnlineSınavModel.Sınav" Role="Sınav" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.DersYetki" Role="DersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sınav">
+              <PropertyRef Name="SınavID" />
+            </Principal>
+            <Dependent Role="DersYetki">
+              <PropertyRef Name="SınavID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Soru_Sınav">
+          <End Type="OnlineSınavModel.Sınav" Role="Sınav" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.Soru" Role="Soru" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sınav">
+              <PropertyRef Name="SınavID" />
+            </Principal>
+            <Dependent Role="Soru">
+              <PropertyRef Name="SınavID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="UyeDersYetki">
+          <Key>
+            <PropertyRef Name="UyeDersYetkiID" />
+          </Key>
+          <Property Name="UyeDersYetkiID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UyeID" Type="Int32" />
+          <Property Name="DersID" Type="Int32" />
+          <NavigationProperty Name="Ders" Relationship="OnlineSınavModel.FK_UyeDersYetki_Ders" FromRole="UyeDersYetki" ToRole="Ders" />
+          <NavigationProperty Name="Uye" Relationship="OnlineSınavModel.FK_UyeDersYetki_Uye" FromRole="UyeDersYetki" ToRole="Uye" />
+        </EntityType>
+        <Association Name="FK_UyeDersYetki_Ders">
+          <End Type="OnlineSınavModel.Ders" Role="Ders" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.UyeDersYetki" Role="UyeDersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Ders">
+              <PropertyRef Name="DersID" />
+            </Principal>
+            <Dependent Role="UyeDersYetki">
+              <PropertyRef Name="DersID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UyeDersYetki_Uye">
+          <End Type="OnlineSınavModel.Uye" Role="Uye" Multiplicity="0..1" />
+          <End Type="OnlineSınavModel.UyeDersYetki" Role="UyeDersYetki" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Uye">
+              <PropertyRef Name="UyeID" />
+            </Principal>
+            <Dependent Role="UyeDersYetki">
+              <PropertyRef Name="UyeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="OnlineSınavModelStoreContainer" CdmEntityContainer="OnlineSınavEntities">
+          <EntitySetMapping Name="Bolum">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Bolum">
+              <MappingFragment StoreEntitySet="Bolum">
+                <ScalarProperty Name="BolumID" ColumnName="BolumID" />
+                <ScalarProperty Name="BolumAdi" ColumnName="BolumAdi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Ders">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Ders">
+              <MappingFragment StoreEntitySet="Ders">
+                <ScalarProperty Name="DersID" ColumnName="DersID" />
+                <ScalarProperty Name="DersAdi" ColumnName="DersAdi" />
+                <ScalarProperty Name="DonemID" ColumnName="DonemID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Donem">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Donem">
+              <MappingFragment StoreEntitySet="Donem">
+                <ScalarProperty Name="DonemID" ColumnName="DonemID" />
+                <ScalarProperty Name="DonemAdi" ColumnName="DonemAdi" />
+                <ScalarProperty Name="BolumID" ColumnName="BolumID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Konu">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Konu">
+              <MappingFragment StoreEntitySet="Konu">
+                <ScalarProperty Name="KonuID" ColumnName="KonuID" />
+                <ScalarProperty Name="KonuAdi" ColumnName="KonuAdi" />
+                <ScalarProperty Name="DersID" ColumnName="DersID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Secenek">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Secenek">
+              <MappingFragment StoreEntitySet="Secenek">
+                <ScalarProperty Name="SecenekID" ColumnName="SecenekID" />
+                <ScalarProperty Name="SoruID" ColumnName="SoruID" />
+                <ScalarProperty Name="SecenekAdı" ColumnName="SecenekAdı" />
+                <ScalarProperty Name="SecenekResmi" ColumnName="SecenekResmi" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Soru">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Soru">
+              <MappingFragment StoreEntitySet="Soru">
+                <ScalarProperty Name="SoruID" ColumnName="SoruID" />
+                <ScalarProperty Name="SınavID" ColumnName="SınavID" />
+                <ScalarProperty Name="KonuID" ColumnName="KonuID" />
+                <ScalarProperty Name="Puan" ColumnName="Puan" />
+                <ScalarProperty Name="SoruResmi" ColumnName="SoruResmi" />
+                <ScalarProperty Name="SoruAdı" ColumnName="SoruAdı" />
+                <ScalarProperty Name="DogruCevapID" ColumnName="DogruCevapID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="OnlineSınavModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Uye">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Uye">
+              <MappingFragment StoreEntitySet="Uye">
+                <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Fotograf" ColumnName="Fotograf" />
+                <ScalarProperty Name="YetkiID" ColumnName="YetkiID" />
+                <ScalarProperty Name="Numara" ColumnName="Numara" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Yetki">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Yetki">
+              <MappingFragment StoreEntitySet="Yetki">
+                <ScalarProperty Name="YetkiID" ColumnName="YetkiID" />
+                <ScalarProperty Name="Yetki1" ColumnName="Yetki" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="OnlineSınavModel.Store.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="OnlineSınavModel.Store.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="OnlineSınavModel.Store.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="OnlineSınavModel.Store.sp_helpdiagramdefinition">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="OnlineSınavModel.sp_helpdiagramdefinition_Result">
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="OnlineSınavModel.Store.sp_helpdiagrams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="OnlineSınavModel.sp_helpdiagrams_Result">
+                <ScalarProperty Name="Database" ColumnName="Database" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="OnlineSınavModel.Store.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="OnlineSınavModel.Store.sp_upgraddiagrams" />
+          <EntitySetMapping Name="Cevap">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Cevap">
+              <MappingFragment StoreEntitySet="Cevap">
+                <ScalarProperty Name="DogruCevapMı" ColumnName="DogruCevapMı" />
+                <ScalarProperty Name="Puan" ColumnName="Puan" />
+                <ScalarProperty Name="SecilenCevapID" ColumnName="SecilenCevapID" />
+                <ScalarProperty Name="SoruID" ColumnName="SoruID" />
+                <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+                <ScalarProperty Name="CevapID" ColumnName="CevapID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DersYetki">
+            <EntityTypeMapping TypeName="OnlineSınavModel.DersYetki">
+              <MappingFragment StoreEntitySet="DersYetki">
+                <ScalarProperty Name="Durum" ColumnName="Durum" />
+                <ScalarProperty Name="TikTarih" ColumnName="TikTarih" />
+                <ScalarProperty Name="SınavID" ColumnName="SınavID" />
+                <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+                <ScalarProperty Name="DersYetkiID" ColumnName="DersYetkiID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sınav">
+            <EntityTypeMapping TypeName="OnlineSınavModel.Sınav">
+              <MappingFragment StoreEntitySet="Sınav">
+                <ScalarProperty Name="DersID" ColumnName="DersID" />
+                <ScalarProperty Name="BitisTarihi" ColumnName="BitisTarihi" />
+                <ScalarProperty Name="BaslangicTarihi" ColumnName="BaslangicTarihi" />
+                <ScalarProperty Name="SınavSüresi" ColumnName="SınavSüresi" />
+                <ScalarProperty Name="SınavAdi" ColumnName="SınavAdi" />
+                <ScalarProperty Name="SınavID" ColumnName="SınavID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UyeDersYetki">
+            <EntityTypeMapping TypeName="OnlineSınavModel.UyeDersYetki">
+              <MappingFragment StoreEntitySet="UyeDersYetki">
+                <ScalarProperty Name="DersID" ColumnName="DersID" />
+                <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+                <ScalarProperty Name="UyeDersYetkiID" ColumnName="UyeDersYetkiID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

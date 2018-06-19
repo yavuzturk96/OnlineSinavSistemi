@@ -1,0 +1,321 @@
+﻿@model Online_Sınav_Sistemi.Models.ExamViewModel
+
+<div class="content">
+    <div class="row">
+        <div>
+            
+            @{
+                System.Collections.ArrayList sıkAdı = new System.Collections.ArrayList();
+                sıkAdı.Add("A"); sıkAdı.Add("B"); sıkAdı.Add("C"); sıkAdı.Add("D"); sıkAdı.Add("E"); sıkAdı.Add("F");
+                int i;
+            }
+            @{
+
+                DateTime tik = Convert.ToDateTime(Model.TikTarihi);
+                //DateTime süre =Convert.ToDateTime(Model.Duration);
+                int süre = Convert.ToInt32(Model.Duration);
+                int tikyil = Convert.ToInt32(tik.Year);
+                int tikay = Convert.ToInt32(tik.Month);
+                int tikgun = Convert.ToInt32(tik.Day);
+                int tiksaat = Convert.ToInt32(tik.Hour);
+                int tikdakika = Convert.ToInt32(tik.Minute);
+                int tiksaniye = Convert.ToInt32(tik.Second);
+                int tikmsaniye = Convert.ToInt32(tik.Millisecond);
+                DateTime suan = DateTime.Now;
+
+                int suanyil = Convert.ToInt32(suan.Year);
+                int suanay = Convert.ToInt32(suan.Month);
+                int suangun = Convert.ToInt32(suan.Day);
+                int suansaat = Convert.ToInt32(suan.Hour);
+                int suandakika = Convert.ToInt32(suan.Minute);
+                int suansaniye = Convert.ToInt32(suan.Second);
+                int suanmsaniye = Convert.ToInt32(suan.Millisecond);
+                //int bitiszamani;
+                //int bitissaniye;
+                //int ydakika;
+                //int ysaniye;
+                TimeSpan t;
+                DateTime datesure;
+                DateTime Bitist = tik.AddMinutes(süre);
+                t = Bitist - suan;
+    //if (tikdakika + süre > 59)
+    //{
+
+    //    t = Bitist - suan;
+
+    //}
+    //else
+    //{//veya direkt bitist-suan yapılabilir.
+    //    datesure = new DateTime(suanyil, suanay, suangun, suansaat, süre + tikdakika, tiksaniye, tikmsaniye);
+    //    t = datesure - suan;
+
+    //}
+
+    //if (tikdakika + süre > 59)
+    //{
+    //    bitiszamani = süre + tikdakika - 60;
+    //    if (suandakika > bitiszamani) { ydakika = 60 - suandakika + bitiszamani; }
+    //    else { ydakika = bitiszamani - suandakika; }
+
+
+    //    bitissaniye = tiksaniye;
+    //    if (suansaniye <= tiksaniye) { ysaniye = bitissaniye - suansaniye; }
+    //    else { ysaniye = 60 + bitissaniye - suansaniye; }
+
+    //}
+    //else
+    //{
+    //    bitiszamani = süre + tikdakika;
+    //    ydakika = bitiszamani - suandakika;
+    //    if (bitiszamani < suandakika)
+    //    { //sınav süresi bittiği anlamına gelir.}
+
+    //    }
+    //    bitissaniye = tiksaniye;
+    //    if (suansaniye <= tiksaniye) { ysaniye = bitissaniye - suansaniye; }
+    //    else { ysaniye = 60 + bitissaniye - suansaniye; }
+    //}
+
+
+
+
+
+
+    @*<div id="dakika">@ydakika</div>
+        <div id="saniye">@ysaniye</div>*@
+                @*<div>@t.ToString()</div>*@
+                <div class="col-sm-7 col-sm-offset-2">
+
+                    <h1 class="text-center">
+                        <div id="messagedakika">@t.Minutes.ToString()</div>
+                        <div id="messagesaniye">@t.Seconds.ToString()</div>
+                    </h1>
+
+                </div>
+
+
+            }
+            <br />
+
+            @foreach (var question in Model.Questions)
+            {
+                i = 0;
+                <div class="col-sm-7 col-sm-offset-2">
+                    <article class="article">
+                        <div class="panel panel-default test-panel">
+                            <div class="panel-body">
+                                <center>
+                                    @{
+                if (question.Image != null)
+                {
+                    var base64 = Convert.ToBase64String(question.Image);
+                    var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                            <img src='@imgSrc' style="max-width:200px; max-height:150px;" />
+                }
+
+                                    }
+                                </center>
+                                <pre>@question.Id) @question.Title (@question.Point)   @*@question.RightChoiceId*@ </pre>
+                                <div id="radio" class="col-xs-12">
+                                    <br>
+
+                                    @foreach (var choice in question.Choices)
+                                    {
+
+                                        <center> @if (choice.SecenekResmi != null)
+                                             {
+                                            var base64 = Convert.ToBase64String(choice.SecenekResmi);
+                                            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                                            <img src='@imgSrc' style="max-width:150px; max-height:100px;" />
+                                            }
+                                        </center>
+
+                                        <div class="input-group ">
+                                            <span class="input-group-addon">
+                                                @sıkAdı[i] <input type="radio" id="@choice.SecenekID" value="@choice.SecenekID" name="@choice.SoruID">    @*onclick="choiceSwitch()"*@
+                                            </span>
+                                            <label for="radio1" class="form-control test-option ">@choice.SecenekAdı </label>
+                                        </div>
+                                        <br>
+                                        i++;
+                                    }
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            }
+
+            <div class="col-sm-7 col-sm-offset-2">
+                <article class="article">
+                    <a href="~/Uye/Profile/@Session["UyeID"]"><input type="button" name="Button" id="@Session["DersYetkiID"]" value="Sınavı Bitir" class="btn" /></a>
+
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/jquery.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    var saniye = 0, dakika = 0, saat = 1;
+
+    //var dk = document.getElementById("dakika").innerHTML;
+    //var sn = document.getElementById("saniye").innerHTML;
+    var dk = document.getElementById("messagedakika").innerHTML;
+    var sn = document.getElementById("messagesaniye").innerHTML;
+
+    function bak() {
+
+        if (sn > 0) sn = sn - 1;
+        else {
+
+            sn = 59;
+
+            if (dk > 0) dk = dk - 1;
+            else { dk = 59; saat = saat - 1; }
+        }
+
+        $('#messagedakika').text('');
+        $('#messagesaniye').text('');
+        $('#messagedakika').append(dk + " dakika ");
+        $('#messagesaniye').append(sn + " saniye ");
+        if (dk == 0 && sn == 0) {
+
+            alert("Sınav Süreniz Bitmiştir.")
+
+            window.location.href = "/Home/Sınavlar";
+
+
+        }
+    }
+
+    $(document).ready(function () {
+        //alert(dk);
+
+        $('#messagedakika').text('');
+        $('#messagesaniye').text('');
+        //$('#message').append(dk + " dakika " + sn + " saniye kaldı.");
+        $('#messagedakika').append(dk + " dakika ");
+        $('#messagesaniye').append(sn + " saniye ");
+        //document.getElementById("pp").innerHTML = dk+":"+sn;
+
+        setInterval(bak, 1000);
+
+    });
+
+
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+    $(".btn").click(function () {
+
+        //var questionId = e.target.name;
+        //var butonId = e.target.id;
+        //alert("Soru Numarası:" + questionId);
+        $.ajax({
+            url: '/Home/TikDurumKaydet',
+            //data: { dersYetkiID: butonId },
+
+            type: 'POST',
+            dataType: 'json',
+            success: function (data) {
+                //alert("Soru Eklendi Şıkkın:  " + checked_option_radio);
+
+            }
+
+        });
+    });
+
+    $(document).ready(function () {
+        $('input[type="radio"]').click(function (e) {
+            //var checked_option_radio = $('input:radio[type=radio]:checked').val();
+            //alert(e.target.name);
+            //alert(e.target.id);
+            var questionId = e.target.name;  //Radio buttonun hangi soruya ait olduğunu atadık
+            var checked_option_radio = e.target.id; //Seçilen radio butonun hangi seçeneğe ait ollduğunu atadık.
+            //alert("Soru Numarası:" + questionId);
+            $.ajax({
+                url: '/Home/secenekDegistir/',
+                data: { checked_option_radio: checked_option_radio, SoruID: questionId },
+
+                type: 'POST',
+                dataType: 'json',
+                success: function (data) {
+                    //alert("Soru Eklendi Şıkkın:  " + checked_option_radio);
+                }
+            });
+
+        });
+    })
+
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#saveButton").click(function () {
+            var checked_option_radio = $('input:radio[name=radio]:checked').val();
+            $.ajax({
+                url: '/Home/secenekDegistir/',
+                data: { checked_option_radio: checked_option_radio, SoruID: 1 },
+                type: 'POST',
+                dataType: 'json',
+                success: function (data) {
+                    //alert("Secenek değişti.  " + checked_option_radio);
+                }
+
+            });
+
+        });
+    })
+
+</script>
+
+
+
+
+
+<script src="~/assets/js/jquery-2.1.4.min.js"></script>
+
+<!-- <![endif]-->
+<!--[if IE]>
+<script src="~/assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+    if ('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+</script>
+<script src="~/assets/js/bootstrap.min.js"></script>
+
+<!-- page specific plugin scripts -->
+<!--[if lte IE 8]>
+  <script src="~/assets/js/excanvas.min.js"></script>
+<![endif]-->
+<script src="~/assets/js/jquery-ui.custom.min.js"></script>
+<script src="~/assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="~/assets/js/chosen.jquery.min.js"></script>
+<script src="~/assets/js/spinbox.min.js"></script>
+<script src="~/assets/js/bootstrap-datepicker.min.js"></script>
+<script src="~/assets/js/bootstrap-timepicker.min.js"></script>
+<script src="~/assets/js/moment.min.js"></script>
+<script src="~/assets/js/daterangepicker.min.js"></script>
+<script src="~/assets/js/bootstrap-datetimepicker.min.js"></script>
+<script src="~/assets/js/bootstrap-colorpicker.min.js"></script>
+<script src="~/assets/js/jquery.knob.min.js"></script>
+<script src="~/assets/js/autosize.min.js"></script>
+<script src="~/assets/js/jquery.inputlimiter.min.js"></script>
+<script src="~/assets/js/jquery.maskedinput.min.js"></script>
+<script src="~/assets/js/bootstrap-tag.min.js"></script>
+<script src="~/Scripts/jquery.min.js"></script>
+<!-- ace scripts -->
+<script src="~/assets/js/ace-elements.min.js"></script>
+<script src="~/assets/js/ace.min.js"></script>
+
+
+

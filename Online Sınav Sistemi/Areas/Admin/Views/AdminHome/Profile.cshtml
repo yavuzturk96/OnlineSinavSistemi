@@ -1,0 +1,641 @@
+﻿    @{
+        Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    }
+
+@{
+
+    //var uyeid = Session["UyeID"];
+    //int uyeID = Convert.ToInt32(uyeid);
+    System.Data.SqlClient.SqlDataReader dr;
+    System.Data.SqlClient.SqlConnection baglanti;
+    System.Data.SqlClient.SqlCommand cmd;
+
+    baglanti = new System.Data.SqlClient.SqlConnection(@"server=DESKTOP-TOA0HSB\SQLEXPRESS;database=OnlineSınav;Trusted_Connection=yes");
+    cmd = new System.Data.SqlClient.SqlCommand("Select count(*) from Sınav", baglanti);
+    baglanti.Open();
+    int sınavSayısı = Convert.ToInt32(cmd.ExecuteScalar());
+    baglanti.Close();
+
+    baglanti = new System.Data.SqlClient.SqlConnection(@"server=DESKTOP-TOA0HSB\SQLEXPRESS;database=OnlineSınav;Trusted_Connection=yes");
+    cmd = new System.Data.SqlClient.SqlCommand("Select count(*) from Uye", baglanti);
+    baglanti.Open();
+    int uyeSayısı = Convert.ToInt32(cmd.ExecuteScalar());
+    baglanti.Close();
+
+    baglanti = new System.Data.SqlClient.SqlConnection(@"server=DESKTOP-TOA0HSB\SQLEXPRESS;database=OnlineSınav;Trusted_Connection=yes");
+    cmd = new System.Data.SqlClient.SqlCommand("Select count(*) from Soru", baglanti);
+    baglanti.Open();
+    int soruSayısı = Convert.ToInt32(cmd.ExecuteScalar());
+    baglanti.Close();
+
+    baglanti = new System.Data.SqlClient.SqlConnection(@"server=DESKTOP-TOA0HSB\SQLEXPRESS;database=OnlineSınav;Trusted_Connection=yes");
+    cmd = new System.Data.SqlClient.SqlCommand("Select DISTINCT UyeID from Cevap ", baglanti);
+    baglanti.Open();
+    cmd.Connection = baglanti;
+    dr = cmd.ExecuteReader();
+    System.Collections.ArrayList UyeID = new System.Collections.ArrayList();
+    System.Collections.ArrayList UyeAdı = new System.Collections.ArrayList();
+    System.Collections.ArrayList UyeSoyadı = new System.Collections.ArrayList();
+    System.Collections.ArrayList Puan = new System.Collections.ArrayList();
+    int sınavaGirenUyeSayısı = 0;
+    while (dr.Read())
+    {
+        UyeID.Add(dr["UyeID"]);
+        sınavaGirenUyeSayısı++;
+    }
+    dr.Close();
+    baglanti.Close();
+  
+}
+<section class="content-header">
+    <h1>
+        Kullanıcı Profili
+    </h1>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-3">
+            <!-- Profile Image -->
+            <div class="box box-primary">
+                <div class="box-body box-profile">
+                    @{
+                        if (Model.Fotograf != null)
+                        {
+                            var base64 = Convert.ToBase64String(Model.Fotograf);
+                            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+                            <img class="profile-user-img img-responsive img-circle" src='@imgSrc' alt="User profile picture">
+                        }
+                        else
+                        { <img class="profile-user-img img-responsive img-circle" src="../../dist/img/user4-128x128.jpg" alt="User profile picture">}
+                    }
+
+
+
+                    <h3 class="profile-username text-center">@Model.Ad @Model.Soyad</h3>
+                    <p class="text-muted text-center">@Model.Email</p>
+                    <ul class="list-group list-group-unbordered">
+                        <li class="list-group-item">
+                            <b>Soru Sayısı</b> <a class="pull-right">@soruSayısı</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>Sınav Sayısı </b> <a class="pull-right">@sınavSayısı</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>Üye Sayısı</b> <a class="pull-right">@uyeSayısı</a>
+                        </li>
+                    </ul>
+                    <a href="~/Admin/AdminSınav/Index" class="btn btn-primary btn-block"><b>Sınavlara Git </b></a>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+            <!-- About Me Box -->
+            @*<div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title"> Hakkında</h3>
+                </div>
+
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <strong><i class="fa fa-book margin-r-5"></i> Alınan Dersler</strong>
+                    <p class="text-muted">
+                        @for (int i = 0; i < dersAdedi; i++)
+                        {
+                            <span class="label label-info">@DersAdi[i]</span>
+                        }
+                    </p>
+                    <hr>
+                    <strong><i class="fa fa-pencil margin-r-5"></i> Sınavlar</strong>
+                    <p>
+                        @for (int i = 0; i < sınavAdedi; i++)
+                        {
+                            <span class="label label-success">@SınavAdi[i]</span>
+                        }
+                        <span class="label label-danger">UI Design</span>
+                            <span class="label label-success">Coding</span>
+                            <span class="label label-info">Javascript</span>
+                            <span class="label label-warning">PHP</span>
+                            <span class="label label-primary">Node.js</span>
+                    </p>
+                    <hr>
+                    <strong><i class="fa fa-file-text-o margin-r-5"></i> Notes</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+                </div>
+                <!-- /.box-body -->
+            </div>*@
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-9">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    @*<li class="active"><a href="#activity" data-toggle="tab">Activity</a></li>*@
+                    <li><a href="#timeline" data-toggle="tab">Timeline</a></li>
+                    @{
+                        if (Convert.ToInt32(Session["UyeID"]) == Model.UyeID)
+                        {
+                            <li><a href="#settings" data-toggle="tab">Ayarlar</a></li>
+                        }
+                    }
+
+                </ul>
+                <div class="tab-content">
+                    @*<div class="active tab-pane" id="activity">
+                            <!-- Post -->
+                            <div class="post">
+                                <div class="user-block">
+                                    <img class="img-circle img-bordered-sm" src="../../dist/img/user1-128x128.jpg" alt="user image">
+                                    <span class="username">
+                                        <a href="#">Jonathan Burke Jr.</a>
+                                        <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                                    </span>
+                                    <span class="description">Shared publicly - 7:30 PM today</span>
+                                </div>
+                                <!-- /.user-block -->
+                                <p>
+                                    Lorem ipsum represents a long-held tradition for designers,
+                                    typographers and the like. Some people hate it and argue for
+                                    its demise, but others ignore the hate as they create awesome
+                                    tools to help create filler text for everyone from bacon lovers
+                                    to Charlie Sheen fans.
+                                </p>
+                                <ul class="list-inline">
+                                    <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
+                                    <li>
+                                        <a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
+                                    </li>
+                                    <li class="pull-right">
+                                        <a href="#" class="link-black text-sm">
+                                            <i class="fa fa-comments-o margin-r-5"></i> Comments
+                                            (5)
+                                        </a>
+                                    </li>
+                                </ul>
+                                <input class="form-control input-sm" type="text" placeholder="Type a comment">
+                            </div>
+                            <!-- /.post -->
+                            <!-- Post -->
+                            <div class="post clearfix">
+                                <div class="user-block">
+                                    <img class="img-circle img-bordered-sm" src="../../dist/img/user7-128x128.jpg" alt="User Image">
+                                    <span class="username">
+                                        <a href="#">Sarah Ross</a>
+                                        <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                                    </span>
+                                    <span class="description">Sent you a message - 3 days ago</span>
+                                </div>
+                                <!-- /.user-block -->
+                                <p>
+                                    Lorem ipsum represents a long-held tradition for designers,
+                                    typographers and the like. Some people hate it and argue for
+                                    its demise, but others ignore the hate as they create awesome
+                                    tools to help create filler text for everyone from bacon lovers
+                                    to Charlie Sheen fans.
+                                </p>
+                                <form class="form-horizontal">
+                                    <div class="form-group margin-bottom-none">
+                                        <div class="col-sm-9">
+                                            <input class="form-control input-sm" placeholder="Response">
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <button type="submit" class="btn btn-danger pull-right btn-block btn-sm">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /.post -->
+                            <!-- Post -->
+                            <div class="post">
+                                <div class="user-block">
+                                    <img class="img-circle img-bordered-sm" src="../../dist/img/user6-128x128.jpg" alt="User Image">
+                                    <span class="username">
+                                        <a href="#">Adam Jones</a>
+                                        <a href="#" class="pull-right btn-box-tool"><i class="fa fa-times"></i></a>
+                                    </span>
+                                    <span class="description">Posted 5 photos - 5 days ago</span>
+                                </div>
+                                <!-- /.user-block -->
+                                <div class="row margin-bottom">
+                                    <div class="col-sm-6">
+                                        <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <img class="img-responsive" src="../../dist/img/photo2.png" alt="Photo">
+                                                <br>
+                                                <img class="img-responsive" src="../../dist/img/photo3.jpg" alt="Photo">
+                                            </div>
+                                            <!-- /.col -->
+                                            <div class="col-sm-6">
+                                                <img class="img-responsive" src="../../dist/img/photo4.jpg" alt="Photo">
+                                                <br>
+                                                <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
+                                            </div>
+                                            <!-- /.col -->
+                                        </div>
+                                        <!-- /.row -->
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
+                                <ul class="list-inline">
+                                    <li><a href="#" class="link-black text-sm"><i class="fa fa-share margin-r-5"></i> Share</a></li>
+                                    <li>
+                                        <a href="#" class="link-black text-sm"><i class="fa fa-thumbs-o-up margin-r-5"></i> Like</a>
+                                    </li>
+                                    <li class="pull-right">
+                                        <a href="#" class="link-black text-sm">
+                                            <i class="fa fa-comments-o margin-r-5"></i> Comments
+                                            (5)
+                                        </a>
+                                    </li>
+                                </ul>
+                                <input class="form-control input-sm" type="text" placeholder="Type a comment">
+                            </div>
+                            <!-- /.post -->
+                        </div>*@
+                    <!-- /.tab-pane -->
+                    <div class="active tab-pane" id="timeline">
+                        <!-- The timeline -->
+                        <ul class="timeline timeline-inverse">
+                            <!-- timeline time label -->
+                            @*<li class="time-label">
+                                    <span class="bg-red">
+                                        10 Feb. 2014
+                                    </span>
+                                </li>*@
+                            <!-- /.timeline-label -->
+                            <!-- timeline item -->
+                            @*<li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
+                                        <h3 class="timeline-header"><a href="#">Support Team</a> sent you an email</h3>
+                                        <div class="timeline-body">
+                                            Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
+                                            weebly ning heekya handango imeem plugg dopplr jibjab, movity
+                                            jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
+                                            quora plaxo ideeli hulu weebly balihoo...
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <a class="btn btn-primary btn-xs">Read more</a>
+                                            <a class="btn btn-danger btn-xs">Delete</a>
+                                        </div>
+                                    </div>
+                                </li>*@
+                            <!-- END timeline item -->
+                            <!-- timeline item -->
+                           
+                            <li> 
+                                <div class="timeline-item">
+                                    <h3 class="timeline-header no-border">
+                                        <a href="">Hoş Geldiniz...</a> 
+                                    </h3>
+                                </div>
+                            </li>
+                            @{
+                                      for (int i = 0; i < sınavaGirenUyeSayısı; i++)
+                                                {
+                                                    
+                                                    baglanti = new System.Data.SqlClient.SqlConnection(@"server=DESKTOP-TOA0HSB\SQLEXPRESS;database=OnlineSınav;Trusted_Connection=yes");
+                                                    baglanti.Open();
+                                                    cmd = new System.Data.SqlClient.SqlCommand("Select Ad,Soyad from Uye where UyeID=" + UyeID[i] + "", baglanti);
+                                                    cmd.Connection = baglanti;
+                                                    dr = cmd.ExecuteReader();
+                                                    while (dr.Read())
+                                                    {
+                                                        UyeAdı.Add(dr["Ad"]);
+                                                        UyeSoyadı.Add(dr["Soyad"]);
+                                                    }
+
+                                                    dr.Close();
+                                                    baglanti.Close();
+                                  
+                                <li>
+                                    <div class="timeline-item">
+                                        <h3 class="timeline-header no-border">
+                                            <i class="fa fa-user bg-aqua"> @UyeAdı[i]  @UyeSoyadı[i]</i>
+                                            <a href=""></a>  Sınavını tamamladı.
+                                        </h3>
+                                    </div>
+                                </li>
+                                    }
+                                                }
+                           
+                            <!-- END timeline item -->
+                            <!-- timeline item -->
+                            @*<li>
+                                    <i class="fa fa-comments bg-yellow"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 27 mins ago</span>
+                                        <h3 class="timeline-header"><a href="#">Jay White</a> commented on your post</h3>
+                                        <div class="timeline-body">
+                                            Take me to your leader!
+                                            Switzerland is small and neutral!
+                                            We are more like Germany, ambitious and misunderstood!
+                                        </div>
+                                        <div class="timeline-footer">
+                                            <a class="btn btn-warning btn-flat btn-xs">View comment</a>
+                                        </div>
+                                    </div>
+                                </li>*@
+                            <!-- END timeline item -->
+                            <!-- timeline time label -->
+                            @*<li class="time-label">
+                                    <span class="bg-green">
+                                        3 Jan. 2014
+                                    </span>
+                                </li>*@
+                            <!-- /.timeline-label -->
+                            <!-- timeline item -->
+                            @*<li>
+                                    <i class="fa fa-camera bg-purple"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
+                                        <h3 class="timeline-header"><a href="#">Mina Lee</a> uploaded new photos</h3>
+                                        <div class="timeline-body">
+                                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                                        </div>
+                                    </div>
+                                </li>*@
+                            <!-- END timeline item -->
+                            <li>
+                                <i class="fa fa-clock-o bg-gray"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.tab-pane -->
+
+                    <div class="tab-pane" id="settings">
+
+                        @using (Html.BeginForm("YeniResim", "AdminHome", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {<form class="form-horizontal">
+
+                            @* @Html.LabelFor(model => model.Ad, " Ad: ", new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.EditorFor(model => model.Ad)
+                                        @Html.ValidationMessageFor(model => model.Ad)
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                                    <div class="col-sm-10">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="block clearfix">
+                                        <span class="block input-icon input-icon-right">
+                                            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @required = "", @placeholder = "E-Posta" } })
+                                            <i class="ace-icon fa fa-envelope"></i>
+                                        </span>
+                                    </label>
+                                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                    </div>
+                                </div>*@
+
+                            <div class="form-group">
+                                <label for="inputResim" class="col-sm-2 control-label">Resim: </label>
+                                <div class="editor-field">
+                                    <input id="ImageUpload" type="file" name="ImageUpload" />
+                                </div>
+                            </div>
+                            @*<div class="form-group">
+                                    <label for="inputExperience" class="col-sm-2 control-label">Experience</label>
+                                    <div class="col-sm-10">
+                                        <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputSkills" class="col-sm-2 control-label">Skills</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox"> I agree to the <a href="#">terms and conditions</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>*@
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-danger">Ekle</button>
+                                </div>
+                            </div>
+
+                        </form>
+                        }
+
+                    </div>
+
+                    <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+            </div>
+            <!-- /.nav-tabs-custom -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</section>
+<!-- /.content -->
+<!-- /.content-wrapper -->
+<!-- Control Sidebar -->
+@*<aside class="control-sidebar control-sidebar-dark">
+    <!-- Create the tabs -->
+    <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+        <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
+        <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <!-- Home tab content -->
+        <div class="tab-pane" id="control-sidebar-home-tab">
+            <h3 class="control-sidebar-heading">Recent Activity</h3>
+            <ul class="control-sidebar-menu">
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-birthday-cake bg-red"></i>
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+                            <p>Will be 23 on April 24th</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-user bg-yellow"></i>
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+                            <p>New phone +1(800)555-1234</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+                            <p>nora@example.com</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <i class="menu-icon fa fa-file-code-o bg-green"></i>
+                        <div class="menu-info">
+                            <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+                            <p>Execution time 5 seconds</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.control-sidebar-menu -->
+            <h3 class="control-sidebar-heading">Tasks Progress</h3>
+            <ul class="control-sidebar-menu">
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Custom Template Design
+                            <span class="label label-danger pull-right">70%</span>
+                        </h4>
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Update Resume
+                            <span class="label label-success pull-right">95%</span>
+                        </h4>
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-success" style="width: 95%"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Laravel Integration
+                            <span class="label label-warning pull-right">50%</span>
+                        </h4>
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <h4 class="control-sidebar-subheading">
+                            Back End Framework
+                            <span class="label label-primary pull-right">68%</span>
+                        </h4>
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.control-sidebar-menu -->
+        </div>
+        <!-- /.tab-pane -->
+        <!-- Stats tab content -->
+        <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+        <!-- /.tab-pane -->
+        <!-- Settings tab content -->
+        <div class="tab-pane" id="control-sidebar-settings-tab">
+            <form method="post">
+                <h3 class="control-sidebar-heading">General Settings</h3>
+                <div class="form-group">
+                    <label class="control-sidebar-subheading">
+                        Report panel usage
+                        <input type="checkbox" class="pull-right" checked>
+                    </label>
+                    <p>
+                        Some information about this general settings option
+                    </p>
+                </div>
+                <!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-sidebar-subheading">
+                        Allow mail redirect
+                        <input type="checkbox" class="pull-right" checked>
+                    </label>
+                    <p>
+                        Other sets of options are available
+                    </p>
+                </div>
+                <!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-sidebar-subheading">
+                        Expose author name in posts
+                        <input type="checkbox" class="pull-right" checked>
+                    </label>
+                    <p>
+                        Allow the user to show his name in blog posts
+                    </p>
+                </div>
+                <!-- /.form-group -->
+                <h3 class="control-sidebar-heading">Chat Settings</h3>
+                <div class="form-group">
+                    <label class="control-sidebar-subheading">
+                        Show me as online
+                        <input type="checkbox" class="pull-right" checked>
+                    </label>
+                </div>
+                <!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-sidebar-subheading">
+                        Turn off notifications
+                        <input type="checkbox" class="pull-right">
+                    </label>
+                </div>
+                <!-- /.form-group -->
+                <div class="form-group">
+                    <label class="control-sidebar-subheading">
+                        Delete chat history
+                        <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
+                    </label>
+                </div>
+                <!-- /.form-group -->
+            </form>
+        </div>
+        <!-- /.tab-pane -->
+    </div>
+</aside>*@
+<!-- /.control-sidebar -->
+@*<!-- ./wrapper -->
+    <!-- jQuery 3 -->
+    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>*@
+<!-- ./wrapper -->
+<!-- jQuery 3 -->
+<script src="~/Scripts/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+@*<script src="~/Scripts/bootstrap.min.js"></script>*@
+<!-- FastClick -->
+<script src="~/Scripts/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="~/Scripts/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="~/Scripts/demo.js"></script>

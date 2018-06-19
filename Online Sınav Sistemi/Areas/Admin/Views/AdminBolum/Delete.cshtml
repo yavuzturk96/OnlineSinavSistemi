@@ -1,0 +1,43 @@
+﻿@model Online_Sınav_Sistemi.Models.Bolum
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";}
+
+
+
+<h3>Silmek istediğinizden emin misiniz?</h3>
+<div>
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BolumAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BolumAdi)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("Delete", "AdminBolum", FormMethod.Post, new { @class = "form-horizontal" })) {
+        @Html.AntiForgeryToken()
+
+        @*<div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>*@
+
+        <div class="modal-footer">
+            <button class="btn btn-sm" data-dismiss="modal">
+                <i class="ace-icon fa fa-times"></i>
+                İptal
+            </button>
+
+            <button class="btn btn-sm btn-primary" type="submit">
+                <i class="ace-icon fa fa-check"></i>
+                Sil
+            </button>
+        </div>
+    }
+</div>

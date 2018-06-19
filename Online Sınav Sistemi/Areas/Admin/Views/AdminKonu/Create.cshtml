@@ -1,0 +1,69 @@
+﻿@model Online_Sınav_Sistemi.Models.Konu
+
+@*@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm("Create", "AdminKonu", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-body">
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true)
+
+            @*<div class="form-group">
+                @Html.LabelFor(model => model.KonuID, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.KonuID)
+                    @Html.ValidationMessageFor(model => model.KonuID)
+                </div>
+            </div>*@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.KonuAdi, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.KonuAdi)
+                    @Html.ValidationMessageFor(model => model.KonuAdi)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.DersID, "DersID", new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("DersID", String.Empty)
+                    @Html.ValidationMessageFor(model => model.DersID)
+                </div>
+            </div>
+            </div>
+            @*<div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>*@
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-sm" data-dismiss="modal">
+                <i class="ace-icon fa fa-times"></i>
+                İptal
+            </button>
+
+            <button class="btn btn-sm btn-primary" type="submit">
+                <i class="ace-icon fa fa-check"></i>
+                Kaydet
+            </button>
+        </div>
+}
+
+        @*<div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>*@
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

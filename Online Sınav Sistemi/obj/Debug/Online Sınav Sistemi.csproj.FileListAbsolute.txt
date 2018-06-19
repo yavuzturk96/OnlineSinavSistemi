@@ -1,0 +1,965 @@
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+c:\users\hakan53\documents\visual studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi Hakan V2\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\Humanizer.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\af\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\ar\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\bg\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\bn-BD\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\cs\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\da\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\de\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\el\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\es\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\fa\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\fi-FI\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr-BE\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\he\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\hr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\hu\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\id\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\it\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\ja\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\lv\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb-NO\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\nl\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\pl\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\pt\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\ro\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\ru\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\sk\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\sl\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr-Latn\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\sv\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\tr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\uk\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\vi\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-CN\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hans\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hant\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Humanizer.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\af\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\ar\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\bg\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\bn-BD\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\cs\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\da\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\de\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\el\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\es\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\fa\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\fi-FI\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr-BE\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\he\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\hr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\hu\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\id\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\it\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\ja\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\lv\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb-NO\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\nl\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\pl\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\pt\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\ro\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\ru\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\sk\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\sl\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr-Latn\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\sv\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\tr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\uk\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\vi\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-CN\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hans\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hant\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Humanizer.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\af\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ar\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\bg\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\bn-BD\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\cs\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\da\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\de\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\el\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\es\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\fa\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\fi-FI\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr-BE\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\he\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\hr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\hu\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\id\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\it\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ja\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\lv\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb-NO\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\nl\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\pl\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\pt\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ro\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\ru\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\sk\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\sl\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr-Latn\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\sv\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\tr\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\uk\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\vi\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-CN\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hans\Humanizer.resources.dll
+C:\Users\HAKAN53\Documents\Visual Studio 2015\Projects\Online Sınav Sistemi\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hant\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Humanizer.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\af\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\ar\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\bg\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\bn-BD\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\cs\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\da\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\de\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\el\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\es\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\fa\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\fi-FI\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr-BE\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\he\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\hr\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\hu\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\id\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\it\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\ja\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\lv\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb-NO\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\nl\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\pl\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\pt\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\ro\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\ru\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\sk\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\sl\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr-Latn\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\sv\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\tr\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\uk\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\vi\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-CN\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hans\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hant\Humanizer.resources.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojResolveAssemblyReference.cache
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\HAKAN53\Desktop\Online Sınav Sistemi (1)\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\ApplicationInsights.config
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\csc.exe
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\vbc.exe
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll.config
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Online Sınav Sistemi.pdb
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Humanizer.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Owin.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\WebGrease.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.Web.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Helpers.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Mvc.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Optimization.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.Razor.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\System.Web.WebPages.Razor.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Antlr3.Runtime.pdb
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Newtonsoft.Json.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\EntityFramework.SqlServer.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\af\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\ar\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\bg\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\bn-BD\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\cs\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\da\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\de\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\el\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\es\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\fa\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\fi-FI\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\fr-BE\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\he\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\hr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\hu\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\id\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\it\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\ja\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\lv\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\nb-NO\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\nl\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\pl\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\pt\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\ro\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\ru\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\sk\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\sl\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\sr-Latn\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\sv\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\tr\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\uk\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\vi\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-CN\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hans\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\bin\zh-Hant\Humanizer.resources.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csprojAssemblyReference.cache
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csproj.CoreCompileInputs.cache
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.csproj.CopyComplete
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.dll
+C:\Users\YAVUZ\Desktop\Projeler\Online Sınav Sistemi\Online Sınav Sistemi\obj\Debug\Online Sınav Sistemi.pdb

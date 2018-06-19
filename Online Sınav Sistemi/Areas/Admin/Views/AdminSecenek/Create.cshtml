@@ -1,0 +1,85 @@
+﻿@model Online_Sınav_Sistemi.Models.Secenek
+
+@*@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm("Create", "AdminSecenek", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-body">
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true)
+
+            @*<div class="form-group">
+                @Html.LabelFor(model => model.SecenekID, "Seçenek ID: ", new { @class = "control-label col-md-4" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.SecenekID)
+                    @Html.ValidationMessageFor(model => model.SecenekID)
+                </div>
+            </div>*@
+
+            @*<div class="form-group">
+                    @Html.LabelFor(model => model.SoruID, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SoruID)
+                        @Html.ValidationMessageFor(model => model.SoruID)
+                    </div>
+                </div>*@
+
+            @*<div class="form-group">
+                    @Html.LabelFor(model => model.SoruID, "SoruID", new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("SoruID", String.Empty)
+                        @Html.ValidationMessageFor(model => model.SoruID)
+                    </div>
+                </div>*@
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SecenekAdı, "Seçenek Adı: ", new { @class = "control-label col-md-4" })
+                <div class="col-md-8">
+                    @Html.EditorFor(model => model.SecenekAdı)
+                    @Html.ValidationMessageFor(model => model.SecenekAdı)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SecenekResmi, "Seçenek Resmi: ", new { @class = "control-label col-md-4" })
+                <div class="col-md-8">
+                    @*@Html.EditorFor(model => model.SecenekResmi)
+                        @Html.ValidationMessageFor(model => model.SecenekResmi)*@
+                    <div class="editor-field">
+                        <input id="ImageUpload" type="file" name="ImageUpload" />
+                    </div>
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-default" />
+                    </div>
+                </div>*@
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-sm" data-dismiss="modal">
+            <i class="ace-icon fa fa-times"></i>
+            İptal
+        </button>
+
+        <button class="btn btn-sm btn-primary" type="submit">
+            <i class="ace-icon fa fa-check"></i>
+            Kaydet
+        </button>
+    </div>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

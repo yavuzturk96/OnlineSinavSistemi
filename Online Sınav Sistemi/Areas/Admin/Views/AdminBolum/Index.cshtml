@@ -1,0 +1,319 @@
+﻿@model IEnumerable<Online_Sınav_Sistemi.Models.Bolum>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";}
+
+
+
+<div id="modal-form-Create" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="blue bigger">Lütfen aşağıdaki form alanlarını doldurun</h4>
+            </div>
+
+            @{
+                Html.RenderAction("Create", "AdminBolum");
+            }
+
+            
+        </div>
+    </div>
+</div>
+<div id="modelView" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="blue bigger">Lütfen aşağıdaki form alanlarını doldurun</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="form-group">
+                            @*@{
+                                Html.RenderAction("Edit", "Bolum", new { id = Session["id"] });
+                            }*@
+                            <div class="modal-body">
+
+                            </div>
+
+                        </div>
+
+                        <div class="space-4"></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            @*<div class="modal-footer">
+                    <button class="btn btn-sm" data-dismiss="modal">
+                        <i class="ace-icon fa fa-times"></i>
+                        İptal
+                    </button>
+
+                    <button class="btn btn-sm btn-primary" type="submit">
+                        <i class="ace-icon fa fa-check"></i>
+                        Kaydet
+                    </button>
+                </div>*@
+        </div>
+    </div>
+</div>
+
+<div id="modal-form-Details" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="blue bigger">Lütfen aşağıdaki form alanlarını doldurun</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="form-group">
+                            @{
+                                Html.RenderAction("Details", "AdminBolum");
+                            }
+
+                        </div>
+
+                        <div class="space-4"></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            @*<div class="modal-footer">
+                    <button class="btn btn-sm" data-dismiss="modal">
+                        <i class="ace-icon fa fa-times"></i>
+                        İptal
+                    </button>
+
+                    <button class="btn btn-sm btn-primary" type="submit">
+                        <i class="ace-icon fa fa-check"></i>
+                        Kaydet
+                    </button>
+                </div>*@
+        </div>
+    </div>
+</div>
+<div id="modal-form-Delete" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="blue bigger">Bölüm Silme İşlemi</h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+
+                    <div class="col-xs-12 col-sm-7">
+                        <div class="form-group">
+                            <div class="modal-body">
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-sm" data-dismiss="modal">
+                    <i class="ace-icon fa fa-times"></i>
+                    İptal
+                </button>
+
+                <button class="btn btn-sm btn-primary bolumSil" type="submit">
+                    <i class="ace-icon fa fa-check"></i>
+                    Evet
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="modal-form-Edit" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content" id="myModalBodyDiv">
+
+
+        </div>
+    </div>
+</div>
+<div class="page-header">
+    <h1>
+        Bölümler        
+    </h1>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-lg-12">
+                <table id="simple-table" class="table  table-bordered table-hover">                  
+                      <thead>
+                        <tr>
+                            <th class="left">
+                                @Html.DisplayNameFor(model => model.BolumAdi)
+                            </th>                           
+
+                            <th  class="center">
+                                <button class="btn btn-xs btn-warning" data-toggle="modal" title="Bölüm Ekle" href="#modal-form-Create" data-source="/Admin/AdminBolum/Create">
+                                    <i class="ace-icon glyphicon glyphicon-plus bigger-120"></i>
+                                    
+                                </button>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+@foreach (var item in Model)
+{
+                        <tr>
+                            <td class="left">
+                                @Html.DisplayFor(modelItem => item.BolumAdi)
+                            </td>
+                         
+                            <td class="center">
+                                <div class="hidden-sm hidden-xs btn-group">
+                                    @*<button class="btn btn-xs btn-success view" title="Detay" data-toggle="modal"  href="#modelView" data-target="/Admin/AdminBolum/Details/@item.BolumID">
+                                        <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                    </button>*@
+
+                                    <button class="btn btn-xs btn-info modalAcEdit" title="Güncelle" data-toggle="modal" data-target="#modal-form-Edit" data-id="@item.BolumID" >
+                                        @*<button class="btn btn-xs btn-warning" data-toggle="modal" title="Düzenle" href="#modal-form-Edit" data-source="/Admin/AdminBolum/Edit?id=@item.BolumID">*@
+                                        @* @Html.ActionLink("düzenle", "Edit", new { id = item.BolumID })*@
+                                        <i class="ace-icon fa fa-pencil bigger-120"></i>
+                                    </button>
+                                    
+                                    <button class="btn btn-xs btn-danger modalAc" title="Sil" data-toggle="modal" data-target="#modal-form-Delete" data-bolumadi="@item.BolumAdi" data-id="@item.BolumID">
+                                        <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                    </button>
+
+                                   
+                                </div>
+                                <div class="hidden-md hidden-lg">
+                                    <div class="inline pos-rel">
+                                        <button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown" data-position="auto">
+                                            <i class="ace-icon fa fa-cog icon-only bigger-110"></i>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close">
+                                            <li>
+                                                <a class="tooltip-info" data-rel="tooltip" title="Detay" data-toggle="modal"  href="#modal-form-Details" data-source="/Bolum/Details">
+                                                    <span class="blue">
+                                                        <i class="ace-icon fa fa-search-plus bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a class="tooltip-success" data-rel="tooltip" title="Düzenle"  data-toggle="modal" href="#modal-form-Edit" data-source="/Bolum/Edit">
+                                                    <span class="green">
+                                                        <i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a class="tooltip-error" data-rel="tooltip" title="Sil" data-toggle="modal"  href="#modal-form-Delete" data-source="/Bolum/Delete">
+                                                    <span class="red">
+                                                        <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </td>
+                        </tr>
+
+}
+
+                    </tbody>
+                </table>
+            </div><!-- /.span -->
+        </div>
+    </div>
+</div>
+<script src="~/assets/js/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        // a tagimizde bulunan .view classımıza click olduğunda
+        $("body").on("click", ".view", function () {
+            //data-target dan url mizi al
+            var url = $(this).data("target");
+            //bu urlimizi post et
+            $.post(url, function (data) { })
+                //eğer işlemimiz başarılı bir şekilde gerçekleşirse
+            .done(function (data) {
+                //gelen datayı .modal-body mizin içerise html olarak ekle
+                $("#modelView .modal-body").html(data);
+                //sonra da modalimizi göster
+                $("#modelView").modal("show");
+            })
+                //eğer işlem başarısız olursa
+            .fail(function () {
+                //modalımızın bodysine Error! yaz
+                $("#modelView .modal-body").text("Error!!");
+                //sonra da modalimizi göster
+                $("#modelView").modal("show");
+            })
+
+        });
+    })
+
+
+    $(".modalAc").click(function () {
+        var bolumAdi = $(this).data("bolumadi");
+        $(".modal-body>p").html(bolumAdi + " adlı bölüm silinsin mi?");
+        var id = $(this).data("id");
+        $(".bolumSil").data("id", id);
+
+    });
+
+    $(".bolumSil").click(function () {
+        var id = $(this).data("id");
+
+
+        $.ajax({
+            type: "POST",
+            url: "/Admin/AdminBolum/Sil/" + id,
+            success: function () {
+                window.location.replace("/Admin/AdminBolum/Index");
+            },
+            error: function () {
+
+            }
+
+        });
+    });
+
+
+    $(".modalAcEdit").click(function () {
+        var soruID = $(this).data("id");
+        var url = "/Admin/AdminBolum/Edit/" + soruID;
+
+        $("#myModalBodyDiv").load(url, function () {
+
+            ("#modal-form-Edit").modal("show");
+        });
+    });
+</script>

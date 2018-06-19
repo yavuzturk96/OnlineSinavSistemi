@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Online_Sınav_Sistemi.Models.Soru>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SoruResmi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Soru1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cevap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CevapA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CevapB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CevapC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CevapD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CevapE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Konu.KonuAdi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SoruResmi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Soru1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cevap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CevapA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CevapB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CevapC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CevapD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CevapE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Konu.KonuAdi)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SoruID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SoruID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SoruID })
+        </td>
+    </tr>
+}
+
+</table>

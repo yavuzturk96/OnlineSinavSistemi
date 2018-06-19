@@ -1,0 +1,80 @@
+﻿@model Online_Sınav_Sistemi.Models.Sınav
+
+@*@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+@{
+    Layout = null;
+}
+
+
+@using (Html.BeginForm("Edit", "AdminSınav", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="blue bigger">Sınav Güncelleme İşlemi</h4>
+    </div>
+    <div class="modal-body">
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(model => model.SınavID)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SınavAdi, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.SınavAdi)
+                    @Html.ValidationMessageFor(model => model.SınavAdi)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.BaslangicTarihi, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.BaslangicTarihi)
+                    @Html.ValidationMessageFor(model => model.BaslangicTarihi)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.BitisTarihi, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.BitisTarihi)
+                    @Html.ValidationMessageFor(model => model.BitisTarihi)
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.SınavSüresi, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.SınavSüresi)
+                    @Html.ValidationMessageFor(model => model.SınavSüresi)
+                </div>
+            </div>
+
+            @*<div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>*@
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-sm" data-dismiss="modal">
+                <i class="ace-icon fa fa-times"></i>
+                İptal
+            </button>
+
+            <button class="btn btn-sm btn-primary" type="submit">
+                <i class="ace-icon fa fa-check"></i>
+                Güncelle
+            </button>
+        </div>
+}
+
+        @*<div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>*@
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

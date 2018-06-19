@@ -1,0 +1,35 @@
+﻿@model Online_Sınav_Sistemi.Models.Konu
+
+@*@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+
+@{
+    Layout = null;
+}
+<div>
+ 
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KonuAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KonuAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ders.DersAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ders.DersAdi)
+        </dd>
+
+    </dl>
+</div>
+@*<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.KonuID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>*@

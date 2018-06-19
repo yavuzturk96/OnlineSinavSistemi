@@ -1,0 +1,36 @@
+﻿@model Online_Sınav_Sistemi.Models.Sınav
+
+@*@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+
+@{
+    Layout = null;
+}
+
+<div>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SınavAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SınavAdi)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.SınavSüresi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SınavSüresi)
+        </dd>    
+
+    </dl>
+</div>
+@*<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SınavID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>*@

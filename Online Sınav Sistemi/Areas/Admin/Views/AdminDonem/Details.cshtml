@@ -1,0 +1,35 @@
+﻿@model Online_Sınav_Sistemi.Models.Donem
+
+@*@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+@{
+    Layout = null;
+}
+
+<div>
+
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DonemAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonemAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bolum.BolumAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bolum.BolumAdi)
+        </dd>
+
+    </dl>
+</div>
+@*<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DonemID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>*@

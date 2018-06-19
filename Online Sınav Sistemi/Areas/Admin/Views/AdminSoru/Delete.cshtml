@@ -1,0 +1,74 @@
+﻿@model Online_Sınav_Sistemi.Models.Soru
+
+@*@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}*@
+
+@{
+    Layout = null;
+}
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+ 
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Puan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Puan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoruResmi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoruResmi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoruAdı)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoruAdı)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DogruCevapID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DogruCevapID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Konu.KonuAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Konu.KonuAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sınav.SınavAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sınav.SınavAdi)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("Delete", "AdminSoru", FormMethod.Post, new { @class = "form-horizontal" })) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @*@Html.ActionLink("Back to List", "Index")*@
+        </div>
+    }
+</div>

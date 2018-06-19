@@ -1,0 +1,32 @@
+﻿@model Online_Sınav_Sistemi.Models.Bolum
+
+@*@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";}*@
+
+@{
+    Layout = null;
+}
+
+<div>
+    
+	
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BolumAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BolumAdi)
+        </dd>
+
+    </dl>
+    <div class="modal-footer">
+        <button class="btn btn-sm" data-dismiss="modal">
+            <i class="ace-icon fa fa-times"></i>
+            İptal
+        </button>
+
+       
+    </div>
+</div>
