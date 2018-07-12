@@ -5,6 +5,8 @@ Proje eğitim kurumlarında bulunan uzaktan eğitim sistemi ile ilgili sınavlar
 
 Projede MVC ASP. NET teknolojisi ile bir web tabanlı site hazırlanıp Microsoft SQL Server ile veritabanı projeye entegre edilerek proje için gerekli olan verilerin veritabanından çekilmesi ve kullanıcıların girdiği verilerin veritabanına kaydedilme işlemi yapılmıştır.
 
+Kullanılan Teknoloji ve Diller:  Visual Studio, Microsoft SQL Server, MVC Asp .NET, JavaScript
+AJAX, HTML 5, CSS
 
 # Ekran Görüntüleri
 <p>
