@@ -8,20 +8,29 @@ Projede MVC ASP. NET teknolojisi ile bir web tabanlı site hazırlanıp Microsof
 
 # Ekran Görüntüleri
 <p>
-<a href="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/AnaSayfa2.png" target="_blank">
-<img src=https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/AnaSayfa2.png" width="200" style="max-width:100%;"></a>
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Giri%C5%9F.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Giri%C5%9F.png" width="200" style="max-width:100%;"></a>
   
-<a href="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/AnaSayfa.png" target="_blank">
-<img src="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/AnaSayfa.png" width="200" style="max-width:100%;"></a>
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Kay%C4%B1t%20Olma.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Kay%C4%B1t%20Olma.png" width="200" style="max-width:100%;"></a>
 
-<a href="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/%C3%9Cr%C3%BCnler.png" target="_blank">
-<img src="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/%C3%9Cr%C3%BCnler.png" width="200" style="max-width:100%;"></a>
+# Öğrenci Paneli
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/S%C4%B1navlar.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/S%C4%B1navlar.png" width="200" style="max-width:100%;"></a>
 
-<a href="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/%C3%9Cr%C3%BCnler-Kategorilenmis.png" target="_blank">
-<img src="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/%C3%9Cr%C3%BCnler-Kategorilenmis.png" width="200" style="max-width:100%;"></a>
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/S%C4%B1nav.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/S%C4%B1nav.png" width="200" style="max-width:100%;"></a>
 
-<a href="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Sepet.png" target="_blank">
-<img src="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Sepet.png" width="200" style="max-width:100%;"></a>
+# Yönetici Paneli
 
-<a href="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Siparisler.png" target="_blank">
-<img src="https://github.com/yavuzturk96/BangomE-TicaretSitesi/blob/master/Bangom%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Siparisler.png" width="200" style="max-width:100%;"></a>
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Y%C3%B6neticiS%C4%B1navlar.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Y%C3%B6neticiS%C4%B1navlar.png" width="200" style="max-width:100%;"></a>
+
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Soru%20ekleme.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Soru%20ekleme.png" width="200" style="max-width:100%;"></a>
+
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Se%C3%A7enek%20ekleme.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Se%C3%A7enek%20ekleme.png" width="200" style="max-width:100%;"></a>
+
+<a href="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Cevaplar.png" target="_blank">
+<img src="https://github.com/yavuzturk96/OnlineSinavSistemi/blob/master/OnlineS%C4%B1navSistemi%20Ekran%20G%C3%B6r%C3%BCnt%C3%BCleri/Cevaplar.png" width="200" style="max-width:100%;"></a>
